@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{60d3c08a-c13e-4195-9ab0-8de768090f25}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Add                       Method     void Add ()                                                    
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Delete                    Method     void Delete ()                                                 
+EnumerateTerminalClasses  Method     IEnumTerminalClass EnumerateTerminalClasses ()                 
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetTerminalSuperclassInfo Method     void GetTerminalSuperclassInfo ()                              
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+CLSID                     Property   string CLSID () {get} {set}                                    
+Name                      Property   string Name () {get} {set}                                     
+TerminalClasses           Property   Variant TerminalClasses () {get}                               
+
+

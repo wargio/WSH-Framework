@@ -1,0 +1,30 @@
+
+
+   TypeName: System.__ComObject#{00001562-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                                                                   
+----                      ---------- ----------                                                                                                   
+Cancel                    Method     void Cancel ()                                                                                               
+Close                     Method     void Close ()                                                                                                
+CopyRecord                Method     string CopyRecord (string, string, string, string, CopyRecordOptionsEnum, bool)                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                              
+DeleteRecord              Method     void DeleteRecord (string, bool)                                                                             
+Equals                    Method     bool Equals(System.Object obj)                                                                               
+GetChildren               Method     _Recordset GetChildren ()                                                                                    
+GetHashCode               Method     int GetHashCode()                                                                                            
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                                           
+GetType                   Method     type GetType()                                                                                               
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                                                    
+MoveRecord                Method     string MoveRecord (string, string, string, string, MoveRecordOptionsEnum, bool)                              
+Open                      Method     void Open (Variant, Variant, ConnectModeEnum, RecordCreateOptionsEnum, RecordOpenOptionsEnum, string, string)
+ToString                  Method     string ToString()                                                                                            
+ActiveConnection          Property   Variant ActiveConnection () {get} {set} {set by ref}                                                         
+Fields                    Property   Fields Fields () {get}                                                                                       
+Mode                      Property   ConnectModeEnum Mode () {get} {set}                                                                          
+ParentURL                 Property   string ParentURL () {get}                                                                                    
+Properties                Property   Properties Properties () {get}                                                                               
+RecordType                Property   RecordTypeEnum RecordType () {get}                                                                           
+Source                    Property   Variant Source () {get} {set} {set by ref}                                                                   
+State                     Property   ObjectStateEnum State () {get}                                                                               
+
+

@@ -1,0 +1,16 @@
+
+
+   TypeName: System.__ComObject#{75718c9f-f029-11d1-a1ac-00c04fb6c223}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Cancel                    Method     void Cancel ()                                                 
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+
+

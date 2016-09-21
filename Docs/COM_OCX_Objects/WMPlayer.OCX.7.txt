@@ -1,0 +1,45 @@
+
+
+   TypeName: System.__ComObject#{6c497d62-8919-413c-82db-e935fb3ec584}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+close                     Method     void close ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+launchURL                 Method     void launchURL (string)                                        
+newMedia                  Method     IWMPMedia newMedia (string)                                    
+newPlaylist               Method     IWMPPlaylist newPlaylist (string, string)                      
+openPlayer                Method     void openPlayer (string)                                       
+ToString                  Method     string ToString()                                              
+cdromCollection           Property   IWMPCdromCollection cdromCollection () {get}                   
+closedCaption             Property   IWMPClosedCaption closedCaption () {get}                       
+controls                  Property   IWMPControls controls () {get}                                 
+currentMedia              Property   IWMPMedia currentMedia () {get} {set}                          
+currentPlaylist           Property   IWMPPlaylist currentPlaylist () {get} {set}                    
+dvd                       Property   IWMPDVD dvd () {get}                                           
+enableContextMenu         Property   bool enableContextMenu () {get} {set}                          
+enabled                   Property   bool enabled () {get} {set}                                    
+Error                     Property   IWMPError Error () {get}                                       
+fullScreen                Property   bool fullScreen () {get} {set}                                 
+isOnline                  Property   bool isOnline () {get}                                         
+isRemote                  Property   bool isRemote () {get}                                         
+mediaCollection           Property   IWMPMediaCollection mediaCollection () {get}                   
+network                   Property   IWMPNetwork network () {get}                                   
+openState                 Property   WMPOpenState openState () {get}                                
+playerApplication         Property   IWMPPlayerApplication playerApplication () {get}               
+playlistCollection        Property   IWMPPlaylistCollection playlistCollection () {get}             
+playState                 Property   WMPPlayState playState () {get}                                
+settings                  Property   IWMPSettings settings () {get}                                 
+status                    Property   string status () {get}                                         
+stretchToFit              Property   bool stretchToFit () {get} {set}                               
+uiMode                    Property   string uiMode () {get} {set}                                   
+URL                       Property   string URL () {get} {set}                                      
+versionInfo               Property   string versionInfo () {get}                                    
+windowlessVideo           Property   bool windowlessVideo () {get} {set}                            
+
+

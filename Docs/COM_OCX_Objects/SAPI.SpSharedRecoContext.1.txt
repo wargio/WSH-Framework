@@ -1,0 +1,32 @@
+
+
+   TypeName: System.__ComObject#{580aa49d-7e1e-4809-b8e2-57da806104b8}
+
+Name                              MemberType Definition                                                     
+----                              ---------- ----------                                                     
+Bookmark                          Method     void Bookmark (SpeechBookmarkOptions, Variant, Variant)        
+CreateGrammar                     Method     ISpeechRecoGrammar CreateGrammar (Variant)                     
+CreateObjRef                      Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateResultFromMemory            Method     ISpeechRecoResult CreateResultFromMemory (Variant)             
+Equals                            Method     bool Equals(System.Object obj)                                 
+GetHashCode                       Method     int GetHashCode()                                              
+GetLifetimeService                Method     System.Object GetLifetimeService()                             
+GetType                           Method     type GetType()                                                 
+InitializeLifetimeService         Method     System.Object InitializeLifetimeService()                      
+Pause                             Method     void Pause ()                                                  
+Resume                            Method     void Resume ()                                                 
+SetAdaptationData                 Method     void SetAdaptationData (string)                                
+ToString                          Method     string ToString()                                              
+AllowVoiceFormatMatchingOnNextSet Property   bool AllowVoiceFormatMatchingOnNextSet () {get} {set}          
+AudioInputInterferenceStatus      Property   SpeechInterference AudioInputInterferenceStatus () {get}       
+CmdMaxAlternates                  Property   int CmdMaxAlternates () {get} {set}                            
+EventInterests                    Property   SpeechRecoEvents EventInterests () {get} {set}                 
+Recognizer                        Property   ISpeechRecognizer Recognizer () {get}                          
+RequestedUIType                   Property   string RequestedUIType () {get}                                
+RetainedAudio                     Property   SpeechRetainedAudioOptions RetainedAudio () {get} {set}        
+RetainedAudioFormat               Property   ISpeechAudioFormat RetainedAudioFormat () {get} {set by ref}   
+State                             Property   SpeechRecoContextState State () {get} {set}                    
+Voice                             Property   ISpeechVoice Voice () {get} {set by ref}                       
+VoicePurgeEvent                   Property   SpeechRecoEvents VoicePurgeEvent () {get} {set}                
+
+

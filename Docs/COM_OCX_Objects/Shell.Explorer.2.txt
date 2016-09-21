@@ -1,0 +1,62 @@
+
+
+   TypeName: System.__ComObject#{d30c1661-cdaf-11d0-8a3e-00c04fc9e26e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+ClientToWindow            Method     void ClientToWindow (int, int)                                 
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+ExecWB                    Method     void ExecWB (OLECMDID, OLECMDEXECOPT, Variant, Variant)        
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetProperty               Method     Variant GetProperty (string)                                   
+GetType                   Method     type GetType()                                                 
+GoBack                    Method     void GoBack ()                                                 
+GoForward                 Method     void GoForward ()                                              
+GoHome                    Method     void GoHome ()                                                 
+GoSearch                  Method     void GoSearch ()                                               
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Navigate                  Method     void Navigate (string, Variant, Variant, Variant, Variant)     
+Navigate2                 Method     void Navigate2 (Variant, Variant, Variant, Variant, Variant)   
+PutProperty               Method     void PutProperty (string, Variant)                             
+QueryStatusWB             Method     OLECMDF QueryStatusWB (OLECMDID)                               
+Quit                      Method     void Quit ()                                                   
+Refresh                   Method     void Refresh ()                                                
+Refresh2                  Method     void Refresh2 (Variant)                                        
+ShowBrowserBar            Method     void ShowBrowserBar (Variant, Variant, Variant)                
+Stop                      Method     void Stop ()                                                   
+ToString                  Method     string ToString()                                              
+AddressBar                Property   bool AddressBar () {get} {set}                                 
+Application               Property   IDispatch Application () {get}                                 
+Busy                      Property   bool Busy () {get}                                             
+Container                 Property   IDispatch Container () {get}                                   
+Document                  Property   IDispatch Document () {get}                                    
+FullName                  Property   string FullName () {get}                                       
+FullScreen                Property   bool FullScreen () {get} {set}                                 
+Height                    Property   int Height () {get} {set}                                      
+HWND                      Property   int64 HWND () {get}                                            
+Left                      Property   int Left () {get} {set}                                        
+LocationName              Property   string LocationName () {get}                                   
+LocationURL               Property   string LocationURL () {get}                                    
+MenuBar                   Property   bool MenuBar () {get} {set}                                    
+Name                      Property   string Name () {get}                                           
+Offline                   Property   bool Offline () {get} {set}                                    
+Parent                    Property   IDispatch Parent () {get}                                      
+Path                      Property   string Path () {get}                                           
+ReadyState                Property   tagREADYSTATE ReadyState () {get}                              
+RegisterAsBrowser         Property   bool RegisterAsBrowser () {get} {set}                          
+RegisterAsDropTarget      Property   bool RegisterAsDropTarget () {get} {set}                       
+Resizable                 Property   bool Resizable () {get} {set}                                  
+Silent                    Property   bool Silent () {get} {set}                                     
+StatusBar                 Property   bool StatusBar () {get} {set}                                  
+StatusText                Property   string StatusText () {get} {set}                               
+TheaterMode               Property   bool TheaterMode () {get} {set}                                
+ToolBar                   Property   int ToolBar () {get} {set}                                     
+Top                       Property   int Top () {get} {set}                                         
+TopLevelContainer         Property   bool TopLevelContainer () {get}                                
+Type                      Property   string Type () {get}                                           
+Visible                   Property   bool Visible () {get} {set}                                    
+Width                     Property   int Width () {get} {set}                                       
+
+

@@ -1,0 +1,20 @@
+
+
+   TypeName: System.__ComObject#{435899c8-44ab-11d1-af00-080036234103}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Publish                   Method     void Publish (uint)                                            
+ToString                  Method     string ToString()                                              
+Container                 Property   string Container () {get} {set}                                
+Name                      Property   string Name () {get} {set}                                     
+Path                      Property   string Path () {get}                                           
+UNCName                   Property   string UNCName () {get} {set}                                  
+
+

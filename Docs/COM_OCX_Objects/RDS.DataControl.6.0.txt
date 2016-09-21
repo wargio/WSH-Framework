@@ -1,0 +1,38 @@
+
+
+   TypeName: System.__ComObject#{49278a16-7447-11d2-accb-0000f87a37d8}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Cancel                    Method     void Cancel ()                                                 
+CancelUpdate              Method     void CancelUpdate ()                                           
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateRecordSet           Method     IDispatch CreateRecordSet (Variant)                            
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Refresh                   Method     void Refresh ()                                                
+Reset                     Method     void Reset (int)                                               
+SubmitChanges             Method     void SubmitChanges ()                                          
+ToString                  Method     string ToString()                                              
+Connect                   Property   string Connect () {get} {set}                                  
+DataSpace                 Property   string DataSpace () {get} {set}                                
+ExecuteOptions            Property   short ExecuteOptions () {get} {set}                            
+FetchOptions              Property   short FetchOptions () {get} {set}                              
+FilterColumn              Property   string FilterColumn () {get} {set}                             
+FilterCriterion           Property   string FilterCriterion () {get} {set}                          
+FilterValue               Property   string FilterValue () {get} {set}                              
+Handler                   Property   string Handler () {get} {set}                                  
+InternetTimeout           Property   int InternetTimeout () {get} {set}                             
+ReadyState                Property   int ReadyState () {get}                                        
+Recordset                 Property   IDispatch Recordset () {get}                                   
+Server                    Property   string Server () {get} {set}                                   
+SortColumn                Property   string SortColumn () {get} {set}                               
+SortDirection             Property   bool SortDirection () {get} {set}                              
+SourceRecordset           Property   IDispatch SourceRecordset () {set} {set by ref}                
+SQL                       Property   string SQL () {get} {set}                                      
+URL                       Property   string URL () {get} {set}                                      
+
+

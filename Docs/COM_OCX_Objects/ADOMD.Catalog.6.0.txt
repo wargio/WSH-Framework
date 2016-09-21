@@ -1,0 +1,18 @@
+
+
+   TypeName: System.__ComObject#{228136b1-8bd3-11d0-b4ef-00a0c9138ca4}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+ActiveConnection          Property   IDispatch ActiveConnection () {get} {set} {set by ref}         
+CubeDefs                  Property   CubeDefs CubeDefs () {get}                                     
+Name                      Property   string Name () {get}                                           
+
+

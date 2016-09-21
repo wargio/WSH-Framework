@@ -1,0 +1,35 @@
+
+
+   TypeName: System.__ComObject#{2d5f1c0c-bd75-4b08-9478-3b11fea2586c}
+
+Name                                  MemberType Definition                                                     
+----                                  ---------- ----------                                                     
+CreateObjRef                          Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateRecoContext                     Method     ISpeechRecoContext CreateRecoContext ()                        
+DisplayUI                             Method     void DisplayUI (int, string, string, Variant)                  
+EmulateRecognition                    Method     void EmulateRecognition (Variant, Variant, int)                
+Equals                                Method     bool Equals(System.Object obj)                                 
+GetAudioInputs                        Method     ISpeechObjectTokens GetAudioInputs (string, string)            
+GetFormat                             Method     ISpeechAudioFormat GetFormat (SpeechFormatType)                
+GetHashCode                           Method     int GetHashCode()                                              
+GetLifetimeService                    Method     System.Object GetLifetimeService()                             
+GetProfiles                           Method     ISpeechObjectTokens GetProfiles (string, string)               
+GetPropertyNumber                     Method     bool GetPropertyNumber (string, int)                           
+GetPropertyString                     Method     bool GetPropertyString (string, string)                        
+GetRecognizers                        Method     ISpeechObjectTokens GetRecognizers (string, string)            
+GetType                               Method     type GetType()                                                 
+InitializeLifetimeService             Method     System.Object InitializeLifetimeService()                      
+IsUISupported                         Method     bool IsUISupported (string, Variant)                           
+SetPropertyNumber                     Method     bool SetPropertyNumber (string, int)                           
+SetPropertyString                     Method     bool SetPropertyString (string, string)                        
+ToString                              Method     string ToString()                                              
+AllowAudioInputFormatChangesOnNextSet Property   bool AllowAudioInputFormatChangesOnNextSet () {get} {set}      
+AudioInput                            Property   ISpeechObjectToken AudioInput () {get} {set by ref}            
+AudioInputStream                      Property   ISpeechBaseStream AudioInputStream () {get} {set by ref}       
+IsShared                              Property   bool IsShared () {get}                                         
+Profile                               Property   ISpeechObjectToken Profile () {get} {set by ref}               
+Recognizer                            Property   ISpeechObjectToken Recognizer () {get} {set by ref}            
+State                                 Property   SpeechRecognizerState State () {get} {set}                     
+Status                                Property   ISpeechRecognizerStatus Status () {get}                        
+
+

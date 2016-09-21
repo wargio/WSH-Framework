@@ -1,0 +1,194 @@
+
+
+   TypeName: System.__ComObject#{2a6e293c-2595-11d3-b64c-00c04f79498e}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+CountryCode                    Property   int CountryCode () {get} {set}                                 
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+InputType                      Property   tagTunerInputType InputType () {get} {set}                     
+MaxChannel                     Property   int MaxChannel () {get} {set}                                  
+MinChannel                     Property   int MinChannel () {get} {set}                                  
+NetworkType                    Property   string NetworkType () {get} {set}                              
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{0369b4e2-45b6-11d3-b650-00c04f79498e}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+CountryCode                    Property   int CountryCode () {get} {set}                                 
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+InputType                      Property   tagTunerInputType InputType () {get} {set}                     
+MaxChannel                     Property   int MaxChannel () {get} {set}                                  
+MaxMinorChannel                Property   int MaxMinorChannel () {get} {set}                             
+MaxPhysicalChannel             Property   int MaxPhysicalChannel () {get} {set}                          
+MinChannel                     Property   int MinChannel () {get} {set}                                  
+MinMinorChannel                Property   int MinMinorChannel () {get} {set}                             
+MinPhysicalChannel             Property   int MinPhysicalChannel () {get} {set}                          
+NetworkType                    Property   string NetworkType () {get} {set}                              
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{b10931ed-8bfe-4ab0-9dce-e469c29a9729}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+CountryCode                    Property   int CountryCode () {get} {set}                                 
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+NetworkType                    Property   string NetworkType () {get} {set}                              
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{013f9f9c-b449-4ec7-a6d2-9d4f2fc70ae5}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+CountryCode                    Property   int CountryCode () {get} {set}                                 
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+InputType                      Property   tagTunerInputType InputType () {get} {set}                     
+MaxChannel                     Property   int MaxChannel () {get} {set}                                  
+MaxMajorChannel                Property   int MaxMajorChannel () {get} {set}                             
+MaxMinorChannel                Property   int MaxMinorChannel () {get} {set}                             
+MaxPhysicalChannel             Property   int MaxPhysicalChannel () {get} {set}                          
+MaxSourceID                    Property   int MaxSourceID () {get} {set}                                 
+MinChannel                     Property   int MinChannel () {get} {set}                                  
+MinMajorChannel                Property   int MinMajorChannel () {get} {set}                             
+MinMinorChannel                Property   int MinMinorChannel () {get} {set}                             
+MinPhysicalChannel             Property   int MinPhysicalChannel () {get} {set}                          
+MinSourceID                    Property   int MinSourceID () {get} {set}                                 
+NetworkType                    Property   string NetworkType () {get} {set}                              
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{cdf7be60-d954-42fd-a972-78971958e470}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+HighOscillator                 Property   int HighOscillator () {get} {set}                              
+InputRange                     Property   string InputRange () {get} {set}                               
+LNBSwitch                      Property   int LNBSwitch () {get} {set}                                   
+LowOscillator                  Property   int LowOscillator () {get} {set}                               
+NetworkID                      Property   int NetworkID () {get} {set}                                   
+NetworkType                    Property   string NetworkType () {get} {set}                              
+SpectralInversion              Property   SpectralInversion SpectralInversion () {get} {set}             
+SystemType                     Property   DVBSystemType SystemType () {get} {set}                        
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{843188b4-ce62-43db-966b-8145a094e040}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+NetworkID                      Property   int NetworkID () {get} {set}                                   
+NetworkType                    Property   string NetworkType () {get} {set}                              
+SystemType                     Property   DVBSystemType SystemType () {get} {set}                        
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+
+   TypeName: System.__ComObject#{39dd45da-2da8-46ba-8a8a-87e2b73d983a}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+Clone                          Method     ITuningSpace Clone ()                                          
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest              Method     ITuneRequest CreateTuneRequest ()                              
+Equals                         Method     bool Equals(System.Object obj)                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+ToString                       Method     string ToString()                                              
+CLSID                          Property   string CLSID () {get}                                          
+CountryCode                    Property   int CountryCode () {get} {set}                                 
+DefaultLocator                 Property   ILocator DefaultLocator () {get} {set}                         
+DefaultPreferredComponentTypes Property   IComponentTypes DefaultPreferredComponentTypes () {get} {set}  
+FrequencyMapping               Property   string FrequencyMapping () {get} {set}                         
+FriendlyName                   Property   string FriendlyName () {get} {set}                             
+MaxFrequency                   Property   int MaxFrequency () {get} {set}                                
+MinFrequency                   Property   int MinFrequency () {get} {set}                                
+NetworkType                    Property   string NetworkType () {get} {set}                              
+Step                           Property   int Step () {get} {set}                                        
+UniqueName                     Property   string UniqueName () {get} {set}                               
+
+

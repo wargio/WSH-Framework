@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{0000150c-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AppendChunk               Method     void AppendChunk (Variant)                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Attributes                Property   int Attributes () {get} {set}                                  
+Direction                 Property   ParameterDirectionEnum Direction () {get} {set}                
+Name                      Property   string Name () {get} {set}                                     
+NumericScale              Property   byte NumericScale () {get} {set}                               
+Precision                 Property   byte Precision () {get} {set}                                  
+Properties                Property   Properties Properties () {get}                                 
+Size                      Property   int Size () {get} {set}                                        
+Type                      Property   DataTypeEnum Type () {get} {set}                               
+Value                     Property   Variant Value () {get} {set}                                   
+
+

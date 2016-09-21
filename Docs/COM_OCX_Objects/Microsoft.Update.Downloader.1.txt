@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{68f1c6f9-7ecc-4666-a464-247fe12496c3}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+BeginDownload             Method     IDownloadJob BeginDownload (IUnknown, IUnknown, Variant)       
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Download                  Method     IDownloadResult Download ()                                    
+EndDownload               Method     IDownloadResult EndDownload (IDownloadJob)                     
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+ClientApplicationID       Property   string ClientApplicationID () {get} {set}                      
+IsForced                  Property   bool IsForced () {get} {set}                                   
+Priority                  Property   DownloadPriority Priority () {get} {set}                       
+Updates                   Property   IUpdateCollection Updates () {get} {set}                       
+
+

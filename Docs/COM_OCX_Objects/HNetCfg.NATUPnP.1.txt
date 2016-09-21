@@ -1,0 +1,18 @@
+
+
+   TypeName: System.__ComObject#{b171c812-cc76-485a-94d8-b6b3a2794e99}
+
+Name                         MemberType Definition                                                          
+----                         ---------- ----------                                                          
+CreateObjRef                 Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)     
+Equals                       Method     bool Equals(System.Object obj)                                      
+GetHashCode                  Method     int GetHashCode()                                                   
+GetLifetimeService           Method     System.Object GetLifetimeService()                                  
+GetType                      Method     type GetType()                                                      
+InitializeLifetimeService    Method     System.Object InitializeLifetimeService()                           
+ToString                     Method     string ToString()                                                   
+DynamicPortMappingCollection Property   IDynamicPortMappingCollection DynamicPortMappingCollection () {get} 
+NATEventManager              Property   INATEventManager NATEventManager () {get}                           
+StaticPortMappingCollection  Property   IStaticPortMappingCollection StaticPortMappingCollection () {get}   
+
+

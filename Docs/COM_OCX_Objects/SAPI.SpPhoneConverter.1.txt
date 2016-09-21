@@ -1,0 +1,18 @@
+
+
+   TypeName: System.__ComObject#{c3e4f353-433f-43d6-89a1-6a62a7054c3d}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+IdToPhone                 Method     string IdToPhone (Variant)                                     
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+PhoneToId                 Method     Variant PhoneToId (string)                                     
+ToString                  Method     string ToString()                                              
+LanguageId                Property   int LanguageId () {get} {set}                                  
+
+

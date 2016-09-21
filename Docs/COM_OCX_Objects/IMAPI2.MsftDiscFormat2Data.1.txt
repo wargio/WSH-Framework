@@ -1,0 +1,45 @@
+
+
+   TypeName: System.__ComObject#{27354153-9f64-5b0f-8f00-5d77afbe261e}
+
+Name                                MemberType Definition                                                     
+----                                ---------- ----------                                                     
+CancelWrite                         Method     void CancelWrite ()                                            
+CreateObjRef                        Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                              Method     bool Equals(System.Object obj)                                 
+GetHashCode                         Method     int GetHashCode()                                              
+GetLifetimeService                  Method     System.Object GetLifetimeService()                             
+GetType                             Method     type GetType()                                                 
+InitializeLifetimeService           Method     System.Object InitializeLifetimeService()                      
+IsCurrentMediaSupported             Method     bool IsCurrentMediaSupported (IDiscRecorder2)                  
+IsRecorderSupported                 Method     bool IsRecorderSupported (IDiscRecorder2)                      
+SetWriteSpeed                       Method     void SetWriteSpeed (int, bool)                                 
+ToString                            Method     string ToString()                                              
+Write                               Method     void Write (IStream)                                           
+BufferUnderrunFreeDisabled          Property   bool BufferUnderrunFreeDisabled () {get} {set}                 
+ClientName                          Property   string ClientName () {get} {set}                               
+CurrentMediaStatus                  Property   IMAPI_FORMAT2_DATA_MEDIA_STATE CurrentMediaStatus () {get}     
+CurrentPhysicalMediaType            Property   IMAPI_MEDIA_PHYSICAL_TYPE CurrentPhysicalMediaType () {get}    
+CurrentRotationTypeIsPureCAV        Property   bool CurrentRotationTypeIsPureCAV () {get}                     
+CurrentWriteSpeed                   Property   int CurrentWriteSpeed () {get}                                 
+DisableConsumerDvdCompatibilityMode Property   bool DisableConsumerDvdCompatibilityMode () {get} {set}        
+ForceMediaToBeClosed                Property   bool ForceMediaToBeClosed () {get} {set}                       
+ForceOverwrite                      Property   bool ForceOverwrite () {get} {set}                             
+FreeSectorsOnMedia                  Property   int FreeSectorsOnMedia () {get}                                
+LastWrittenAddressOfPreviousSession Property   int LastWrittenAddressOfPreviousSession () {get}               
+MediaHeuristicallyBlank             Property   bool MediaHeuristicallyBlank () {get}                          
+MediaPhysicallyBlank                Property   bool MediaPhysicallyBlank () {get}                             
+MultisessionInterfaces              Property   SAFEARRAY(Variant) MultisessionInterfaces () {get}             
+NextWritableAddress                 Property   int NextWritableAddress () {get}                               
+PostgapAlreadyInImage               Property   bool PostgapAlreadyInImage () {get} {set}                      
+Recorder                            Property   IDiscRecorder2 Recorder () {get} {set}                         
+RequestedRotationTypeIsPureCAV      Property   bool RequestedRotationTypeIsPureCAV () {get}                   
+RequestedWriteSpeed                 Property   int RequestedWriteSpeed () {get}                               
+StartAddressOfPreviousSession       Property   int StartAddressOfPreviousSession () {get}                     
+SupportedMediaTypes                 Property   SAFEARRAY(Variant) SupportedMediaTypes () {get}                
+SupportedWriteSpeedDescriptors      Property   SAFEARRAY(Variant) SupportedWriteSpeedDescriptors () {get}     
+SupportedWriteSpeeds                Property   SAFEARRAY(Variant) SupportedWriteSpeeds () {get}               
+TotalSectorsOnMedia                 Property   int TotalSectorsOnMedia () {get}                               
+WriteProtectStatus                  Property   IMAPI_MEDIA_WRITE_PROTECT_STATE WriteProtectStatus () {get}    
+
+

@@ -1,0 +1,33 @@
+
+
+   TypeName: System.__ComObject#{016fe2ec-b2c8-45f8-b23b-39e53a75396b}
+
+Name                      MemberType            Definition                                                            
+----                      ----------            ----------                                                            
+Abort                     Method                void Abort ()                                                         
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)       
+Equals                    Method                bool Equals(System.Object obj)                                        
+GetAllResponseHeaders     Method                string GetAllResponseHeaders ()                                       
+GetHashCode               Method                int GetHashCode()                                                     
+GetLifetimeService        Method                System.Object GetLifetimeService()                                    
+GetResponseHeader         Method                string GetResponseHeader (string)                                     
+GetType                   Method                type GetType()                                                        
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                             
+Open                      Method                void Open (string, string, Variant)                                   
+Send                      Method                void Send (Variant)                                                   
+SetAutoLogonPolicy        Method                void SetAutoLogonPolicy (WinHttpRequestAutoLogonPolicy)               
+SetClientCertificate      Method                void SetClientCertificate (string)                                    
+SetCredentials            Method                void SetCredentials (string, string, HTTPREQUEST_SETCREDENTIALS_FLAGS)
+SetProxy                  Method                void SetProxy (HTTPREQUEST_PROXY_SETTING, Variant, Variant)           
+SetRequestHeader          Method                void SetRequestHeader (string, string)                                
+SetTimeouts               Method                void SetTimeouts (int, int, int, int)                                 
+ToString                  Method                string ToString()                                                     
+WaitForResponse           Method                bool WaitForResponse (Variant)                                        
+Option                    ParameterizedProperty Variant Option (WinHttpRequestOption) {get} {set}                     
+ResponseBody              Property              Variant ResponseBody () {get}                                         
+ResponseStream            Property              Variant ResponseStream () {get}                                       
+ResponseText              Property              string ResponseText () {get}                                          
+Status                    Property              int Status () {get}                                                   
+StatusText                Property              string StatusText () {get}                                            
+
+

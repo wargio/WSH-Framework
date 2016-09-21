@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{7586b34d-ec08-11d0-a466-00c04fc30df6}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+ClientInfo                Property   int ClientInfo () {get}                                        
+PrinterName               Property   string PrinterName () {set}                                    
+PrinterOemName            Property   string PrinterOemName () {get}                                 
+PrinterOemURL             Property   string PrinterOemURL () {get}                                  
+PrinterWebURL             Property   string PrinterWebURL () {get}                                  
+SupportLink               Property   string SupportLink () {get}                                    
+SupportLinkName           Property   string SupportLinkName () {get}                                
+
+

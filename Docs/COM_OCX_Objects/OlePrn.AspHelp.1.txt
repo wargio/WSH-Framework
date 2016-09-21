@@ -1,0 +1,47 @@
+
+
+   TypeName: System.__ComObject#{3e4d4f1b-2aee-11d1-9d3d-00c04fc30df6}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+CalcJobETA                Method                void CalcJobETA ()                                             
+Close                     Method                void Close ()                                                  
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method                bool Equals(System.Object obj)                                 
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+OnEndPage                 Method                void OnEndPage ()                                              
+OnStartPage               Method                void OnStartPage (IUnknown)                                    
+Open                      Method                void Open (string)                                             
+ToString                  Method                string ToString()                                              
+AspPage                   ParameterizedProperty string AspPage (uint) {get}                                    
+ErrorDscp                 ParameterizedProperty string ErrorDscp (int) {get}                                   
+LongPaperName             ParameterizedProperty string LongPaperName (string) {get}                            
+MibErrorDscp              ParameterizedProperty string MibErrorDscp (uint) {get}                               
+AvgJobSize                Property              int AvgJobSize () {get}                                        
+AvgJobSizeUnit            Property              int AvgJobSizeUnit () {get}                                    
+Color                     Property              int Color () {get}                                             
+Community                 Property              string Community () {get}                                      
+ComputerName              Property              string ComputerName () {get}                                   
+DriverName                Property              string DriverName () {get}                                     
+Duplex                    Property              int Duplex () {get}                                            
+IPAddress                 Property              string IPAddress () {get}                                      
+IsCluster                 Property              int IsCluster () {get}                                         
+IsHTTP                    Property              int IsHTTP () {get}                                            
+IsTCPMonSupported         Property              int IsTCPMonSupported () {get}                                 
+JobCompletionMinute       Property              int JobCompletionMinute () {get}                               
+MaximumResolution         Property              int MaximumResolution () {get}                                 
+MediaReady                Property              Variant MediaReady () {get}                                    
+PageRate                  Property              int PageRate () {get}                                          
+PageRateUnit              Property              int PageRateUnit () {get}                                      
+PaperNames                Property              Variant PaperNames () {get}                                    
+PendingJobCount           Property              int PendingJobCount () {get}                                   
+PortName                  Property              string PortName () {get}                                       
+ShareName                 Property              string ShareName () {get}                                      
+SNMPDevice                Property              uint SNMPDevice () {get}                                       
+SNMPSupported             Property              int SNMPSupported () {get}                                     
+Status                    Property              int Status () {get}                                            
+
+

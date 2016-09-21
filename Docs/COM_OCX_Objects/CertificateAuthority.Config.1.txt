@@ -1,0 +1,20 @@
+
+
+   TypeName: System.__ComObject#{7a18edde-7e78-4163-8ded-78e2c9cee924}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetConfig                 Method     string GetConfig (int)                                         
+GetField                  Method     string GetField (string)                                       
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Next                      Method     int Next ()                                                    
+Reset                     Method     int Reset (int)                                                
+SetSharedFolder           Method     void SetSharedFolder (string)                                  
+ToString                  Method     string ToString()                                              
+
+

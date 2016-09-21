@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{3050f665-98b5-11cf-bb82-00aa00bdce0b}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+contentDocument           Property   IDispatch contentDocument () {get}                             
+contentSrc                Property   Variant contentSrc () {get} {set}                              
+honorPageBreaks           Property   bool honorPageBreaks () {get} {set}                            
+honorPageRules            Property   bool honorPageRules () {get} {set}                             
+nextRect                  Property   string nextRect () {get} {set}                                 
+nextRectElement           Property   IDispatch nextRectElement () {get} {set}                       
+
+

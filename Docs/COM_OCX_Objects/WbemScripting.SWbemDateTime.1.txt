@@ -1,0 +1,37 @@
+
+
+   TypeName: System.__ComObject#{5e97458a-cf77-11d3-b38f-00105a1f473a}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetFileTime               Method     string GetFileTime (bool)                                      
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+GetVarDate                Method     Date GetVarDate (bool)                                         
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+SetFileTime               Method     void SetFileTime (string, bool)                                
+SetVarDate                Method     void SetVarDate (Date, bool)                                   
+ToString                  Method     string ToString()                                              
+Day                       Property   int Day () {get} {set}                                         
+DaySpecified              Property   bool DaySpecified () {get} {set}                               
+Hours                     Property   int Hours () {get} {set}                                       
+HoursSpecified            Property   bool HoursSpecified () {get} {set}                             
+IsInterval                Property   bool IsInterval () {get} {set}                                 
+Microseconds              Property   int Microseconds () {get} {set}                                
+MicrosecondsSpecified     Property   bool MicrosecondsSpecified () {get} {set}                      
+Minutes                   Property   int Minutes () {get} {set}                                     
+MinutesSpecified          Property   bool MinutesSpecified () {get} {set}                           
+Month                     Property   int Month () {get} {set}                                       
+MonthSpecified            Property   bool MonthSpecified () {get} {set}                             
+Seconds                   Property   int Seconds () {get} {set}                                     
+SecondsSpecified          Property   bool SecondsSpecified () {get} {set}                           
+UTC                       Property   int UTC () {get} {set}                                         
+UTCSpecified              Property   bool UTCSpecified () {get} {set}                               
+Value                     Property   string Value () {get} {set}                                    
+Year                      Property   int Year () {get} {set}                                        
+YearSpecified             Property   bool YearSpecified () {get} {set}                              
+
+

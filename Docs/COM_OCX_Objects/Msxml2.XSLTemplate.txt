@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{2933bf93-7b36-11d2-b20e-00c04f983e60}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+createProcessor           Method     IXSLProcessor createProcessor ()                               
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+stylesheet                Property   IXMLDOMNode stylesheet () {get} {set by ref}                   
+
+

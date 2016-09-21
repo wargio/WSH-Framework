@@ -1,0 +1,56 @@
+
+
+   TypeName: System.__ComObject#{7cff842c-7e97-4807-8304-910dd8f7c051}
+
+Name                              MemberType Definition                                                      
+----                              ---------- ----------                                                      
+CalculateDiscIdentifier           Method     string CalculateDiscIdentifier ()                               
+ChooseImageDefaults               Method     void ChooseImageDefaults (IDiscRecorder2)                       
+ChooseImageDefaultsForMediaType   Method     void ChooseImageDefaultsForMediaType (IMAPI_MEDIA_PHYSICAL_TYPE)
+CreateDirectoryItem               Method     IFsiDirectoryItem CreateDirectoryItem (string)                  
+CreateFileItem                    Method     IFsiFileItem CreateFileItem (string)                            
+CreateObjRef                      Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType) 
+CreateResultImage                 Method     IFileSystemImageResult CreateResultImage ()                     
+Equals                            Method     bool Equals(System.Object obj)                                  
+Exists                            Method     FsiItemType Exists (string)                                     
+GetDefaultFileSystemForImport     Method     FsiFileSystems GetDefaultFileSystemForImport (FsiFileSystems)   
+GetHashCode                       Method     int GetHashCode()                                               
+GetLifetimeService                Method     System.Object GetLifetimeService()                              
+GetType                           Method     type GetType()                                                  
+IdentifyFileSystemsOnDisc         Method     FsiFileSystems IdentifyFileSystemsOnDisc (IDiscRecorder2)       
+ImportFileSystem                  Method     FsiFileSystems ImportFileSystem ()                              
+ImportSpecificFileSystem          Method     void ImportSpecificFileSystem (FsiFileSystems)                  
+InitializeLifetimeService         Method     System.Object InitializeLifetimeService()                       
+LockInChangePoint                 Method     void LockInChangePoint ()                                       
+ProbeSpecificFileSystem           Method     bool ProbeSpecificFileSystem (FsiFileSystems)                   
+RollbackToChangePoint             Method     void RollbackToChangePoint (int)                                
+SetMaxMediaBlocksFromDevice       Method     void SetMaxMediaBlocksFromDevice (IDiscRecorder2)               
+ToString                          Method     string ToString()                                               
+BootImageOptions                  Property   IBootOptions BootImageOptions () {get} {set}                    
+BootImageOptionsArray             Property   SAFEARRAY(Variant) BootImageOptionsArray () {get} {set}         
+ChangePoint                       Property   int ChangePoint () {get}                                        
+CreateRedundantUdfMetadataFiles   Property   bool CreateRedundantUdfMetadataFiles () {get} {set}             
+DirectoryCount                    Property   int DirectoryCount () {get}                                     
+FileCount                         Property   int FileCount () {get}                                          
+FileSystemsSupported              Property   FsiFileSystems FileSystemsSupported () {get}                    
+FileSystemsToCreate               Property   FsiFileSystems FileSystemsToCreate () {get} {set}               
+FreeMediaBlocks                   Property   int FreeMediaBlocks () {get} {set}                              
+ImportedVolumeName                Property   string ImportedVolumeName () {get}                              
+ISO9660InterchangeLevel           Property   int ISO9660InterchangeLevel () {get} {set}                      
+ISO9660InterchangeLevelsSupported Property   SAFEARRAY(Variant) ISO9660InterchangeLevelsSupported () {get}   
+MultisessionInterfaces            Property   SAFEARRAY(Variant) MultisessionInterfaces () {get} {set}        
+Root                              Property   IFsiDirectoryItem Root () {get}                                 
+SessionStartBlock                 Property   int SessionStartBlock () {get} {set}                            
+StageFiles                        Property   bool StageFiles () {get} {set}                                  
+StrictFileSystemCompliance        Property   bool StrictFileSystemCompliance () {get} {set}                  
+UDFRevision                       Property   int UDFRevision () {get} {set}                                  
+UDFRevisionsSupported             Property   SAFEARRAY(Variant) UDFRevisionsSupported () {get}               
+UsedBlocks                        Property   int UsedBlocks () {get}                                         
+UseRestrictedCharacterSet         Property   bool UseRestrictedCharacterSet () {get} {set}                   
+VolumeName                        Property   string VolumeName () {get} {set}                                
+VolumeNameISO9660                 Property   string VolumeNameISO9660 () {get}                               
+VolumeNameJoliet                  Property   string VolumeNameJoliet () {get}                                
+VolumeNameUDF                     Property   string VolumeNameUDF () {get}                                   
+WorkingDirectory                  Property   string WorkingDirectory () {get} {set}                          
+
+

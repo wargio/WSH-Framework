@@ -1,0 +1,30 @@
+
+
+   TypeName: System.__ComObject#{986761e8-7269-4890-aa65-ad7c03697a6d}
+
+Name                      MemberType Definition                                                                             
+----                      ---------- ----------                                                                             
+Cancel                    Method     void Cancel ()                                                                         
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                        
+CreateParameter           Method     _Parameter CreateParameter (string, DataTypeEnum, ParameterDirectionEnum, int, Variant)
+Equals                    Method     bool Equals(System.Object obj)                                                         
+Execute                   Method     _Recordset Execute (Variant, Variant, int)                                             
+GetHashCode               Method     int GetHashCode()                                                                      
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                     
+GetType                   Method     type GetType()                                                                         
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                              
+ToString                  Method     string ToString()                                                                      
+ActiveConnection          Property   _Connection ActiveConnection () {get} {set} {set by ref}                               
+CommandStream             Property   Variant CommandStream () {get} {set by ref}                                            
+CommandText               Property   string CommandText () {get} {set}                                                      
+CommandTimeout            Property   int CommandTimeout () {get} {set}                                                      
+CommandType               Property   CommandTypeEnum CommandType () {get} {set}                                             
+Dialect                   Property   string Dialect () {get} {set}                                                          
+Name                      Property   string Name () {get} {set}                                                             
+NamedParameters           Property   bool NamedParameters () {get} {set}                                                    
+Parameters                Property   Parameters Parameters () {get}                                                         
+Prepared                  Property   bool Prepared () {get} {set}                                                           
+Properties                Property   Properties Properties () {get}                                                         
+State                     Property   int State () {get}                                                                     
+
+

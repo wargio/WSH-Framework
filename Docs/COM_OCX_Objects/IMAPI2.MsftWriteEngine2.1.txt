@@ -1,0 +1,23 @@
+
+
+   TypeName: System.__ComObject#{27354135-7f64-5b0f-8f00-5d77afbe261e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CancelWrite               Method     void CancelWrite ()                                            
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+WriteSection              Method     void WriteSection (IStream, int, int)                          
+BytesPerSector            Property   int BytesPerSector () {get} {set}                              
+EndingSectorsPerSecond    Property   int EndingSectorsPerSecond () {get} {set}                      
+Recorder                  Property   IDiscRecorder2Ex Recorder () {get} {set}                       
+StartingSectorsPerSecond  Property   int StartingSectorsPerSecond () {get} {set}                    
+UseStreamingWrite12       Property   bool UseStreamingWrite12 () {get} {set}                        
+WriteInProgress           Property   bool WriteInProgress () {get}                                  
+
+

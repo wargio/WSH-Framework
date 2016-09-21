@@ -1,0 +1,16 @@
+
+
+   TypeName: System.__ComObject#{14e11abd-ee37-4893-9ea1-6964de933e39}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTuneRequest         Method     IMPEG2TuneRequest CreateTuneRequest (ITuningSpace)             
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+
+

@@ -1,0 +1,30 @@
+
+
+   TypeName: System.__ComObject#{5791bc27-ce9c-11d1-97bf-0000f81e849c}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+SetAsClass                Method     void SetAsClass ()                                             
+SetAsSingleton            Method     void SetAsSingleton ()                                         
+ToString                  Method     string ToString()                                              
+Authority                 Property   string Authority () {get} {set}                                
+Class                     Property   string Class () {get} {set}                                    
+DisplayName               Property   string DisplayName () {get} {set}                              
+IsClass                   Property   bool IsClass () {get}                                          
+IsSingleton               Property   bool IsSingleton () {get}                                      
+Keys                      Property   ISWbemNamedValueSet Keys () {get}                              
+Locale                    Property   string Locale () {get} {set}                                   
+Namespace                 Property   string Namespace () {get} {set}                                
+ParentNamespace           Property   string ParentNamespace () {get}                                
+Path                      Property   string Path () {get} {set}                                     
+RelPath                   Property   string RelPath () {get} {set}                                  
+Security_                 Property   ISWbemSecurity Security_ () {get}                              
+Server                    Property   string Server () {get} {set}                                   
+
+

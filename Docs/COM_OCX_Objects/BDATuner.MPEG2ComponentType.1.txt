@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{2c073d84-b51c-48c9-aa9f-68971e1f6e38}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Clone                     Method     IComponentType Clone ()                                        
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Category                  Property   ComponentCategory Category () {get} {set}                      
+LangID                    Property   int LangID () {get} {set}                                      
+MediaFormatType           Property   string MediaFormatType () {get} {set}                          
+MediaMajorType            Property   string MediaMajorType () {get} {set}                           
+MediaSubType              Property   string MediaSubType () {get} {set}                             
+StreamType                Property   MPEG2StreamType StreamType () {get} {set}                      
+
+

@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{76a6415b-cb41-11d1-8b02-00600806d9b6}
+
+Name                      MemberType Definition                                                                                   
+----                      ---------- ----------                                                                                   
+ConnectServer             Method     ISWbemServices ConnectServer (string, string, string, string, string, string, int, IDispatch)
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                              
+Equals                    Method     bool Equals(System.Object obj)                                                               
+GetHashCode               Method     int GetHashCode()                                                                            
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                           
+GetType                   Method     type GetType()                                                                               
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                                    
+ToString                  Method     string ToString()                                                                            
+Security_                 Property   ISWbemSecurity Security_ () {get}                                                            
+
+

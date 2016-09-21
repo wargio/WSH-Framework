@@ -1,0 +1,23 @@
+
+
+   TypeName: System.__ComObject#{174c81fe-aecd-4dae-b8a0-2c6318dd86a8}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+PromptForCredentials      Method     void PromptForCredentials (IUnknown, string)                   
+SetPassword               Method     void SetPassword (string)                                      
+ToString                  Method     string ToString()                                              
+Address                   Property   string Address () {get} {set}                                  
+AutoDetect                Property   bool AutoDetect () {get} {set}                                 
+BypassList                Property   IStringCollection BypassList () {get} {set}                    
+BypassProxyOnLocal        Property   bool BypassProxyOnLocal () {get} {set}                         
+ReadOnly                  Property   bool ReadOnly () {get}                                         
+UserName                  Property   string UserName () {get} {set}                                 
+
+

@@ -1,0 +1,29 @@
+
+
+   TypeName: System.__ComObject#{518e5ffe-d8ce-4f7e-a5db-b40a35419d3b}
+
+Name                       MemberType Definition                                                        
+----                       ---------- ----------                                                        
+Attach                     Method     void Attach (string)                                              
+CreateObjRef               Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)   
+EnableTemplates            Method     void EnableTemplates ()                                           
+Equals                     Method     bool Equals(System.Object obj)                                    
+GetAttachedComputer        Method     string GetAttachedComputer ()                                     
+GetDictionarySDO           Method     IUnknown GetDictionarySDO ()                                      
+GetDomainType              Method     IASDOMAINTYPE GetDomainType ()                                    
+GetHashCode                Method     int GetHashCode()                                                 
+GetLifetimeService         Method     System.Object GetLifetimeService()                                
+GetOSType                  Method     IASOSTYPE GetOSType ()                                            
+GetSDOSchema               Method     IUnknown GetSDOSchema ()                                          
+GetServiceSDO              Method     IUnknown GetServiceSDO (IASDATASTORE, string)                     
+GetTemplatesSDO            Method     IUnknown GetTemplatesSDO (string)                                 
+GetType                    Method     type GetType()                                                    
+GetUserSDO                 Method     IUnknown GetUserSDO (IASDATASTORE, string)                        
+ImportRemoteTemplates      Method     void ImportRemoteTemplates (IUnknown, string)                     
+InitializeLifetimeService  Method     System.Object InitializeLifetimeService()                         
+IsDirectoryAvailable       Method     bool IsDirectoryAvailable ()                                      
+Reload                     Method     void Reload ()                                                    
+SyncConfigAgainstTemplates Method     void SyncConfigAgainstTemplates (string, IUnknown, IUnknown, bool)
+ToString                   Method     string ToString()                                                 
+
+

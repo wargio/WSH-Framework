@@ -1,0 +1,27 @@
+
+
+   TypeName: System.__ComObject#{ce17c09b-4efa-44d5-a4c9-59d9585ab0cd}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateKey                 Method     ISpeechDataKey CreateKey (string)                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DeleteKey                 Method     void DeleteKey (string)                                        
+DeleteValue               Method     void DeleteValue (string)                                      
+EnumKeys                  Method     string EnumKeys (int)                                          
+EnumValues                Method     string EnumValues (int)                                        
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetBinaryValue            Method     Variant GetBinaryValue (string)                                
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetLongValue              Method     int GetLongValue (string)                                      
+GetStringValue            Method     string GetStringValue (string)                                 
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+OpenKey                   Method     ISpeechDataKey OpenKey (string)                                
+SetBinaryValue            Method     void SetBinaryValue (string, Variant)                          
+SetLongValue              Method     void SetLongValue (string, int)                                
+SetStringValue            Method     void SetStringValue (string, string)                           
+ToString                  Method     string ToString()                                              
+
+

@@ -1,0 +1,41 @@
+
+
+   TypeName: System.__ComObject#{e572d3c9-37be-4ae2-825d-d521763e3108}
+
+Name                           MemberType Definition                                                     
+----                           ---------- ----------                                                     
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateSubscriptionForSelection Method     bool CreateSubscriptionForSelection ()                         
+DeleteSubscriptionForSelection Method     bool DeleteSubscriptionForSelection ()                         
+Equals                         Method     bool Equals(System.Object obj)                                 
+Expand                         Method     void Expand (Variant, int)                                     
+Export                         Method     void Export ()                                                 
+GetHashCode                    Method     int GetHashCode()                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                             
+GetType                        Method     type GetType()                                                 
+Import                         Method     void Import ()                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                      
+InvokeContextMenuCommand       Method     void InvokeContextMenuCommand (string)                         
+MoveSelectionDown              Method     void MoveSelectionDown ()                                      
+MoveSelectionTo                Method     void MoveSelectionTo ()                                        
+MoveSelectionUp                Method     void MoveSelectionUp ()                                        
+NewFolder                      Method     void NewFolder ()                                              
+ResetSort                      Method     void ResetSort ()                                              
+SelectedItems                  Method     IDispatch SelectedItems ()                                     
+SetRoot                        Method     void SetRoot (string)                                          
+SetViewType                    Method     void SetViewType (int)                                         
+Synchronize                    Method     void Synchronize ()                                            
+ToString                       Method     string ToString()                                              
+UnselectAll                    Method     void UnselectAll ()                                            
+Columns                        Property   string Columns () {get} {set}                                  
+CountViewTypes                 Property   int CountViewTypes () {get}                                    
+Depth                          Property   int Depth () {get} {set}                                       
+EnumOptions                    Property   int EnumOptions () {get} {set}                                 
+Flags                          Property   uint Flags () {get} {set}                                      
+Mode                           Property   uint Mode () {get} {set}                                       
+Root                           Property   Variant Root () {get} {set}                                    
+SelectedItem                   Property   IDispatch SelectedItem () {get} {set}                          
+SubscriptionsEnabled           Property   bool SubscriptionsEnabled () {get}                             
+TVFlags                        Property   uint TVFlags () {get} {set}                                    
+
+

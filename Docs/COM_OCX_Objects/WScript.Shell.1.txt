@@ -1,0 +1,58 @@
+
+
+   TypeName: System.__ComObject#{41904400-be18-11d3-a28b-00104bd35090}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+AppActivate               Method                bool AppActivate (Variant, Variant)                            
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateShortcut            Method                IDispatch CreateShortcut (string)                              
+Equals                    Method                bool Equals(System.Object obj)                                 
+Exec                      Method                IWshExec Exec (string)                                         
+ExpandEnvironmentStrings  Method                string ExpandEnvironmentStrings (string)                       
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+LogEvent                  Method                bool LogEvent (Variant, string, string)                        
+Popup                     Method                int Popup (string, Variant, Variant, Variant)                  
+RegDelete                 Method                void RegDelete (string)                                        
+RegRead                   Method                Variant RegRead (string)                                       
+RegWrite                  Method                void RegWrite (string, Variant, Variant)                       
+Run                       Method                int Run (string, Variant, Variant)                             
+SendKeys                  Method                void SendKeys (string, Variant)                                
+ToString                  Method                string ToString()                                              
+Environment               ParameterizedProperty IWshEnvironment Environment (Variant) {get}                    
+CurrentDirectory          Property              string CurrentDirectory () {get} {set}                         
+SpecialFolders            Property              IWshCollection SpecialFolders () {get}                         
+
+
+
+
+   TypeName: System.__ComObject#{41904400-be18-11d3-a28b-00104bd35090}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+AppActivate               Method                bool AppActivate (Variant, Variant)                            
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateShortcut            Method                IDispatch CreateShortcut (string)                              
+Equals                    Method                bool Equals(System.Object obj)                                 
+Exec                      Method                IWshExec Exec (string)                                         
+ExpandEnvironmentStrings  Method                string ExpandEnvironmentStrings (string)                       
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+LogEvent                  Method                bool LogEvent (Variant, string, string)                        
+Popup                     Method                int Popup (string, Variant, Variant, Variant)                  
+RegDelete                 Method                void RegDelete (string)                                        
+RegRead                   Method                Variant RegRead (string)                                       
+RegWrite                  Method                void RegWrite (string, Variant, Variant)                       
+Run                       Method                int Run (string, Variant, Variant)                             
+SendKeys                  Method                void SendKeys (string, Variant)                                
+ToString                  Method                string ToString()                                              
+Environment               ParameterizedProperty IWshEnvironment Environment (Variant) {get}                    
+CurrentDirectory          Property              string CurrentDirectory () {get} {set}                         
+SpecialFolders            Property              IWshCollection SpecialFolders () {get}                         
+
+

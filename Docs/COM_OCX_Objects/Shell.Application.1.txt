@@ -1,0 +1,53 @@
+
+
+   TypeName: System.__ComObject#{866738b9-6cf2-4de8-8767-f794ebe74f4e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AddToRecent               Method     void AddToRecent (Variant, string)                             
+BrowseForFolder           Method     Folder BrowseForFolder (int, string, int, Variant)             
+CanStartStopService       Method     Variant CanStartStopService (string)                           
+CascadeWindows            Method     void CascadeWindows ()                                         
+ControlPanelItem          Method     void ControlPanelItem (string)                                 
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+EjectPC                   Method     void EjectPC ()                                                
+Equals                    Method     bool Equals(System.Object obj)                                 
+Explore                   Method     void Explore (Variant)                                         
+ExplorerPolicy            Method     Variant ExplorerPolicy (string)                                
+FileRun                   Method     void FileRun ()                                                
+FindComputer              Method     void FindComputer ()                                           
+FindFiles                 Method     void FindFiles ()                                              
+FindPrinter               Method     void FindPrinter (string, string, string)                      
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetSetting                Method     bool GetSetting (int)                                          
+GetSystemInformation      Method     Variant GetSystemInformation (string)                          
+GetType                   Method     type GetType()                                                 
+Help                      Method     void Help ()                                                   
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+IsRestricted              Method     int IsRestricted (string, string)                              
+IsServiceRunning          Method     Variant IsServiceRunning (string)                              
+MinimizeAll               Method     void MinimizeAll ()                                            
+NameSpace                 Method     Folder NameSpace (Variant)                                     
+Open                      Method     void Open (Variant)                                            
+RefreshMenu               Method     void RefreshMenu ()                                            
+ServiceStart              Method     Variant ServiceStart (string, Variant)                         
+ServiceStop               Method     Variant ServiceStop (string, Variant)                          
+SetTime                   Method     void SetTime ()                                                
+ShellExecute              Method     void ShellExecute (string, Variant, Variant, Variant, Variant) 
+ShowBrowserBar            Method     Variant ShowBrowserBar (string, Variant)                       
+ShutdownWindows           Method     void ShutdownWindows ()                                        
+Suspend                   Method     void Suspend ()                                                
+TileHorizontally          Method     void TileHorizontally ()                                       
+TileVertically            Method     void TileVertically ()                                         
+ToggleDesktop             Method     void ToggleDesktop ()                                          
+ToString                  Method     string ToString()                                              
+TrayProperties            Method     void TrayProperties ()                                         
+UndoMinimizeALL           Method     void UndoMinimizeALL ()                                        
+Windows                   Method     IDispatch Windows ()                                           
+WindowsSecurity           Method     void WindowsSecurity ()                                        
+WindowSwitcher            Method     void WindowSwitcher ()                                         
+Application               Property   IDispatch Application () {get}                                 
+Parent                    Property   IDispatch Parent () {get}                                      
+
+

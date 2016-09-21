@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{00000500-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Description               Property   string Description () {get}                                    
+HelpContext               Property   int HelpContext () {get}                                       
+HelpFile                  Property   string HelpFile () {get}                                       
+NativeError               Property   int NativeError () {get}                                       
+Number                    Property   int Number () {get}                                            
+Source                    Property   string Source () {get}                                         
+SQLState                  Property   string SQLState () {get}                                       
+
+

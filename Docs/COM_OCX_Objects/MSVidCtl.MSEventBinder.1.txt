@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{c3a9f406-2222-436d-86d5-ba3229279efb}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Bind                      Method     int Bind (IDispatch, string, string)                           
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Unbind                    Method     void Unbind (uint)                                             
+
+

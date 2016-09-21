@@ -1,0 +1,26 @@
+
+
+   TypeName: System.__ComObject#{98bd3aff-6884-452b-a220-71890551d3b1}
+
+Name                             MemberType Definition                                                     
+----                             ---------- ----------                                                     
+CreateObjRef                     Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                           Method     bool Equals(System.Object obj)                                 
+GetHashCode                      Method     int GetHashCode()                                              
+GetLifetimeService               Method     System.Object GetLifetimeService()                             
+GetRdpProperty                   Method     Variant GetRdpProperty (string)                                
+GetType                          Method     type GetType()                                                 
+InitializeLifetimeService        Method     System.Object InitializeLifetimeService()                      
+Launch                           Method     void Launch ()                                                 
+SetRdpProperty                   Method     void SetRdpProperty (string, Variant)                          
+ShowTrustedSitesManagementDialog Method     void ShowTrustedSitesManagementDialog ()                       
+ToString                         Method     string ToString()                                              
+IsRemoteProgramClientInstalled   Property   bool IsRemoteProgramClientInstalled () {get}                   
+MsRdpWorkspace                   Property   IMsRdpWorkspace MsRdpWorkspace () {get}                        
+MsRdpWorkspace2                  Property   IMsRdpWorkspace2 MsRdpWorkspace2 () {get}                      
+MsRdpWorkspace3                  Property   IMsRdpWorkspace3 MsRdpWorkspace3 () {get}                      
+PublicMode                       Property   bool PublicMode () {get} {set}                                 
+RdpFileContents                  Property   string RdpFileContents () {get} {set}                          
+SecuredSettingsEnabled           Property   int SecuredSettingsEnabled () {get}                            
+
+

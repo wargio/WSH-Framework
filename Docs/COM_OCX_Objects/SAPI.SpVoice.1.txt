@@ -1,0 +1,37 @@
+
+
+   TypeName: System.__ComObject#{269316d8-57bd-11d2-9eee-00c04f797396}
+
+Name                                   MemberType Definition                                                     
+----                                   ---------- ----------                                                     
+CreateObjRef                           Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DisplayUI                              Method     void DisplayUI (int, string, string, Variant)                  
+Equals                                 Method     bool Equals(System.Object obj)                                 
+GetAudioOutputs                        Method     ISpeechObjectTokens GetAudioOutputs (string, string)           
+GetHashCode                            Method     int GetHashCode()                                              
+GetLifetimeService                     Method     System.Object GetLifetimeService()                             
+GetType                                Method     type GetType()                                                 
+GetVoices                              Method     ISpeechObjectTokens GetVoices (string, string)                 
+InitializeLifetimeService              Method     System.Object InitializeLifetimeService()                      
+IsUISupported                          Method     bool IsUISupported (string, Variant)                           
+Pause                                  Method     void Pause ()                                                  
+Resume                                 Method     void Resume ()                                                 
+Skip                                   Method     int Skip (string, int)                                         
+Speak                                  Method     int Speak (string, SpeechVoiceSpeakFlags)                      
+SpeakCompleteEvent                     Method     int SpeakCompleteEvent ()                                      
+SpeakStream                            Method     int SpeakStream (ISpeechBaseStream, SpeechVoiceSpeakFlags)     
+ToString                               Method     string ToString()                                              
+WaitUntilDone                          Method     bool WaitUntilDone (int)                                       
+AlertBoundary                          Property   SpeechVoiceEvents AlertBoundary () {get} {set}                 
+AllowAudioOutputFormatChangesOnNextSet Property   bool AllowAudioOutputFormatChangesOnNextSet () {get} {set}     
+AudioOutput                            Property   ISpeechObjectToken AudioOutput () {get} {set by ref}           
+AudioOutputStream                      Property   ISpeechBaseStream AudioOutputStream () {get} {set by ref}      
+EventInterests                         Property   SpeechVoiceEvents EventInterests () {get} {set}                
+Priority                               Property   SpeechVoicePriority Priority () {get} {set}                    
+Rate                                   Property   int Rate () {get} {set}                                        
+Status                                 Property   ISpeechVoiceStatus Status () {get}                             
+SynchronousSpeakTimeout                Property   int SynchronousSpeakTimeout () {get} {set}                     
+Voice                                  Property   ISpeechObjectToken Voice () {get} {set by ref}                 
+Volume                                 Property   int Volume () {get} {set}                                      
+
+

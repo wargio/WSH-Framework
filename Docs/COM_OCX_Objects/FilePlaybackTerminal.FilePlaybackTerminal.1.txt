@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{b1efc38a-9355-11d0-835c-00aa003ccabd}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Direction                 Property   TERMINAL_DIRECTION Direction () {get}                          
+MediaType                 Property   int MediaType () {get}                                         
+Name                      Property   string Name () {get}                                           
+State                     Property   TERMINAL_STATE State () {get}                                  
+TerminalClass             Property   string TerminalClass () {get}                                  
+TerminalType              Property   TERMINAL_TYPE TerminalType () {get}                            
+
+

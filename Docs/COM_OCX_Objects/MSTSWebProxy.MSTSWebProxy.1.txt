@@ -1,0 +1,27 @@
+
+
+   TypeName: System.__ComObject#{d3ed7c38-fe93-45c0-8723-a61a3d21ef05}
+
+Name                           MemberType Definition                                                                                     
+----                           ---------- ----------                                                                                     
+ClearWorkspaceCredential       Method     void ClearWorkspaceCredential (string)                                                         
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                
+DisconnectWorkspace            Method     void DisconnectWorkspace (string)                                                              
+Equals                         Method     bool Equals(System.Object obj)                                                                 
+GetClaimsToken                 Method     string GetClaimsToken (string, string, string)                                                 
+GetHashCode                    Method     int GetHashCode()                                                                              
+GetLifetimeService             Method     System.Object GetLifetimeService()                                                             
+GetProcessId                   Method     uint GetProcessId ()                                                                           
+GetType                        Method     type GetType()                                                                                 
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                                                      
+IsWorkspaceCredentialSpecified Method     bool IsWorkspaceCredentialSpecified (string, bool)                                             
+IsWorkspaceSSOEnabled          Method     bool IsWorkspaceSSOEnabled ()                                                                  
+OnAuthenticated                Method     void OnAuthenticated (string, string)                                                          
+StartRemoteApplication         Method     void StartRemoteApplication (string, string, string, string)                                   
+StartRemoteDesktop             Method     void StartRemoteDesktop (string, string)                                                       
+StartWorkspace                 Method     void StartWorkspace (string, string, string, string, int, int)                                 
+StartWorkspaceEx               Method     void StartWorkspaceEx (string, string, string, string, string, string, int, int)               
+StartWorkspaceEx2              Method     void StartWorkspaceEx2 (string, string, string, string, string, string, int, int, string, GUID)
+ToString                       Method     string ToString()                                                                              
+
+

@@ -1,0 +1,27 @@
+
+
+   TypeName: System.__ComObject#{aeb84c81-95dc-11d0-b7fc-b61140119c4a}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AddRow                    Method     void AddRow (int)                                              
+ChangeRow                 Method     void ChangeRow (int)                                           
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DeleteRow                 Method     void DeleteRow (int)                                           
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetListViewsWidths        Method     void GetListViewsWidths ()                                     
+GetType                   Method     type GetType()                                                 
+Init                      Method     void Init (IUnknown, double)                                   
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+LoadData                  Method     void LoadData (int)                                            
+RefreshDiskView           Method     void RefreshDiskView ()                                        
+ReloadData                Method     void ReloadData ()                                             
+ResetLoadState            Method     void ResetLoadState (int)                                      
+SetViewType               Method     void SetViewType (short)                                       
+SysColorChange            Method     void SysColorChange ()                                         
+ToString                  Method     string ToString()                                              
+UIStateChange             Method     void UIStateChange (int)                                       
+
+

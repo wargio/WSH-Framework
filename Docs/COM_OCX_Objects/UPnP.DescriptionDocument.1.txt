@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{11d1c1b2-7daa-4c9e-9595-7f82ed206d1e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Abort                     Method     void Abort ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DeviceByUDN               Method     IUPnPDevice DeviceByUDN (string)                               
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Load                      Method     void Load (string)                                             
+LoadAsync                 Method     void LoadAsync (string, IUnknown)                              
+RootDevice                Method     IUPnPDevice RootDevice ()                                      
+ToString                  Method     string ToString()                                              
+LoadResult                Property   int LoadResult () {get}                                        
+ReadyState                Property   int ReadyState () {get}                                        
+
+

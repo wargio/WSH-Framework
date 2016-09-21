@@ -1,0 +1,35 @@
+
+
+   TypeName: System.__ComObject#{2e01311b-c322-4b0a-bd77-b90cfdc8dce7}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+abort                     Method     void abort ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+getAllResponseHeaders     Method     string getAllResponseHeaders ()                                
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+getOption                 Method     Variant getOption (SERVERXMLHTTP_OPTION)                       
+getResponseHeader         Method     string getResponseHeader (string)                              
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+open                      Method     void open (string, string, Variant, Variant, Variant)          
+send                      Method     void send (Variant)                                            
+setOption                 Method     void setOption (SERVERXMLHTTP_OPTION, Variant)                 
+setProxy                  Method     void setProxy (SXH_PROXY_SETTING, Variant, Variant)            
+setProxyCredentials       Method     void setProxyCredentials (string, string)                      
+setRequestHeader          Method     void setRequestHeader (string, string)                         
+setTimeouts               Method     void setTimeouts (int, int, int, int)                          
+ToString                  Method     string ToString()                                              
+waitForResponse           Method     bool waitForResponse (Variant)                                 
+onreadystatechange        Property   IDispatch onreadystatechange () {set}                          
+readyState                Property   int readyState () {get}                                        
+responseBody              Property   Variant responseBody () {get}                                  
+responseStream            Property   Variant responseStream () {get}                                
+responseText              Property   string responseText () {get}                                   
+responseXML               Property   IDispatch responseXML () {get}                                 
+status                    Property   int status () {get}                                            
+statusText                Property   string statusText () {get}                                     
+
+

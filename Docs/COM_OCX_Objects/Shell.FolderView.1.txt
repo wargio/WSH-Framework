@@ -1,0 +1,16 @@
+
+
+   TypeName: System.__ComObject#{9ba05970-f6a8-11cf-a442-00a0c90a8f39}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+SetFolderView             Method     void SetFolderView (IDispatch)                                 
+ToString                  Method     string ToString()                                              
+
+

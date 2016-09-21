@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{924a3723-a00b-4f5f-9fee-8e9aeb9e82aa}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Add                       Method     void Add (string)                                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Delete                    Method     void Delete (string)                                           
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetTerminalClassInfo      Method     void GetTerminalClassInfo (string)                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+CLSID                     Property   string CLSID () {get} {set}                                    
+Company                   Property   string Company () {get} {set}                                  
+Direction                 Property   TMGR_DIRECTION Direction () {get} {set}                        
+MediaTypes                Property   int MediaTypes () {get} {set}                                  
+Name                      Property   string Name () {get} {set}                                     
+TerminalClass             Property   string TerminalClass () {get} {set}                            
+Version                   Property   string Version () {get} {set}                                  
+
+

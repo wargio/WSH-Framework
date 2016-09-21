@@ -1,0 +1,16 @@
+
+
+   TypeName: System.__ComObject#{3b151836-df3a-4e0a-846c-d2adc9334333}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+RestorePhraseFromMemory   Method     ISpeechPhraseInfo RestorePhraseFromMemory (Variant)            
+ToString                  Method     string ToString()                                              
+
+

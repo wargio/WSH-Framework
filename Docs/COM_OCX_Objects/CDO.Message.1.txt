@@ -1,0 +1,53 @@
+
+
+   TypeName: System.__ComObject#{cd000020-8b95-11d1-82db-00c04fb1625d}
+
+Name                      MemberType Definition                                                                     
+----                      ---------- ----------                                                                     
+AddAttachment             Method     IBodyPart AddAttachment (string, string, string)                               
+AddRelatedBodyPart        Method     IBodyPart AddRelatedBodyPart (string, string, CdoReferenceType, string, string)
+CreateMHTMLBody           Method     void CreateMHTMLBody (string, CdoMHTMLFlags, string, string)                   
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                
+Equals                    Method     bool Equals(System.Object obj)                                                 
+Forward                   Method     IMessage Forward ()                                                            
+GetHashCode               Method     int GetHashCode()                                                              
+GetInterface              Method     IDispatch GetInterface (string)                                                
+GetLifetimeService        Method     System.Object GetLifetimeService()                                             
+GetStream                 Method     _Stream GetStream ()                                                           
+GetType                   Method     type GetType()                                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                      
+Post                      Method     void Post ()                                                                   
+PostReply                 Method     IMessage PostReply ()                                                          
+Reply                     Method     IMessage Reply ()                                                              
+ReplyAll                  Method     IMessage ReplyAll ()                                                           
+Send                      Method     void Send ()                                                                   
+ToString                  Method     string ToString()                                                              
+Attachments               Property   IBodyParts Attachments () {get}                                                
+AutoGenerateTextBody      Property   bool AutoGenerateTextBody () {get} {set}                                       
+BCC                       Property   string BCC () {get} {set}                                                      
+BodyPart                  Property   IBodyPart BodyPart () {get}                                                    
+CC                        Property   string CC () {get} {set}                                                       
+Configuration             Property   IConfiguration Configuration () {get} {set} {set by ref}                       
+DataSource                Property   IDataSource DataSource () {get}                                                
+DSNOptions                Property   CdoDSNOptions DSNOptions () {get} {set}                                        
+EnvelopeFields            Property   Fields EnvelopeFields () {get}                                                 
+Fields                    Property   Fields Fields () {get}                                                         
+FollowUpTo                Property   string FollowUpTo () {get} {set}                                               
+From                      Property   string From () {get} {set}                                                     
+HTMLBody                  Property   string HTMLBody () {get} {set}                                                 
+HTMLBodyPart              Property   IBodyPart HTMLBodyPart () {get}                                                
+Keywords                  Property   string Keywords () {get} {set}                                                 
+MDNRequested              Property   bool MDNRequested () {get} {set}                                               
+MimeFormatted             Property   bool MimeFormatted () {get} {set}                                              
+Newsgroups                Property   string Newsgroups () {get} {set}                                               
+Organization              Property   string Organization () {get} {set}                                             
+ReceivedTime              Property   Date ReceivedTime () {get}                                                     
+ReplyTo                   Property   string ReplyTo () {get} {set}                                                  
+Sender                    Property   string Sender () {get} {set}                                                   
+SentOn                    Property   Date SentOn () {get}                                                           
+Subject                   Property   string Subject () {get} {set}                                                  
+TextBody                  Property   string TextBody () {get} {set}                                                 
+TextBodyPart              Property   IBodyPart TextBodyPart () {get}                                                
+To                        Property   string To () {get} {set}                                                       
+
+

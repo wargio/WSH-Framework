@@ -1,0 +1,72 @@
+
+
+   TypeName: System.__ComObject#{00001556-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType            Definition                                                      
+----                      ----------            ----------                                                      
+AddNew                    Method                void AddNew (Variant, Variant)                                  
+Cancel                    Method                void Cancel ()                                                  
+CancelBatch               Method                void CancelBatch (AffectEnum)                                   
+CancelUpdate              Method                void CancelUpdate ()                                            
+Clone                     Method                _Recordset Clone (LockTypeEnum)                                 
+Close                     Method                void Close ()                                                   
+CompareBookmarks          Method                CompareEnum CompareBookmarks (Variant, Variant)                 
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType) 
+Delete                    Method                void Delete (AffectEnum)                                        
+Equals                    Method                bool Equals(System.Object obj)                                  
+Find                      Method                void Find (string, int, SearchDirectionEnum, Variant)           
+GetHashCode               Method                int GetHashCode()                                               
+GetLifetimeService        Method                System.Object GetLifetimeService()                              
+GetRows                   Method                Variant GetRows (int, Variant, Variant)                         
+GetString                 Method                string GetString (StringFormatEnum, int, string, string, string)
+GetType                   Method                type GetType()                                                  
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                       
+Move                      Method                void Move (int, Variant)                                        
+MoveFirst                 Method                void MoveFirst ()                                               
+MoveLast                  Method                void MoveLast ()                                                
+MoveNext                  Method                void MoveNext ()                                                
+MovePrevious              Method                void MovePrevious ()                                            
+NextRecordset             Method                _Recordset NextRecordset (Variant)                              
+Open                      Method                void Open (Variant, Variant, CursorTypeEnum, LockTypeEnum, int) 
+Requery                   Method                void Requery (int)                                              
+Resync                    Method                void Resync (AffectEnum, ResyncEnum)                            
+Save                      Method                void Save (Variant, PersistFormatEnum)                          
+Seek                      Method                void Seek (Variant, SeekEnum)                                   
+Supports                  Method                bool Supports (CursorOptionEnum)                                
+ToString                  Method                string ToString()                                               
+Update                    Method                void Update (Variant, Variant)                                  
+UpdateBatch               Method                void UpdateBatch (AffectEnum)                                   
+_xClone                   Method                _Recordset _xClone ()                                           
+_xResync                  Method                void _xResync (AffectEnum)                                      
+_xSave                    Method                void _xSave (string, PersistFormatEnum)                         
+Collect                   ParameterizedProperty Variant Collect (Variant) {get} {set}                           
+AbsolutePage              Property              PositionEnum AbsolutePage () {get} {set}                        
+AbsolutePosition          Property              PositionEnum AbsolutePosition () {get} {set}                    
+ActiveCommand             Property              IDispatch ActiveCommand () {get}                                
+ActiveConnection          Property              Variant ActiveConnection () {get} {set} {set by ref}            
+BOF                       Property              bool BOF () {get}                                               
+Bookmark                  Property              Variant Bookmark () {get} {set}                                 
+CacheSize                 Property              int CacheSize () {get} {set}                                    
+CursorLocation            Property              CursorLocationEnum CursorLocation () {get} {set}                
+CursorType                Property              CursorTypeEnum CursorType () {get} {set}                        
+DataMember                Property              string DataMember () {get} {set}                                
+DataSource                Property              IUnknown DataSource () {get} {set by ref}                       
+EditMode                  Property              EditModeEnum EditMode () {get}                                  
+EOF                       Property              bool EOF () {get}                                               
+Fields                    Property              Fields Fields () {get}                                          
+Filter                    Property              Variant Filter () {get} {set}                                   
+Index                     Property              string Index () {get} {set}                                     
+LockType                  Property              LockTypeEnum LockType () {get} {set}                            
+MarshalOptions            Property              MarshalOptionsEnum MarshalOptions () {get} {set}                
+MaxRecords                Property              int MaxRecords () {get} {set}                                   
+PageCount                 Property              int PageCount () {get}                                          
+PageSize                  Property              int PageSize () {get} {set}                                     
+Properties                Property              Properties Properties () {get}                                  
+RecordCount               Property              int RecordCount () {get}                                        
+Sort                      Property              string Sort () {get} {set}                                      
+Source                    Property              Variant Source () {get} {set} {set by ref}                      
+State                     Property              int State () {get}                                              
+Status                    Property              int Status () {get}                                             
+StayInSync                Property              bool StayInSync () {get} {set}                                  
+
+

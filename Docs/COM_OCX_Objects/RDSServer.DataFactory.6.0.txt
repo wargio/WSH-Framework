@@ -1,0 +1,19 @@
+
+
+   TypeName: System.__ComObject#{0eac4843-8763-11cf-a743-00aa00a3f00d}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+ConvertToString           Method     string ConvertToString (IUnknown)                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateRecordSet           Method     IDispatch CreateRecordSet (Variant)                            
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Query                     Method     IDispatch Query (string, string, int)                          
+SubmitChanges             Method     void SubmitChanges (string, IDispatch)                         
+ToString                  Method     string ToString()                                              
+
+

@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{0000061c-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Attributes                Property   ColumnAttributesEnum Attributes () {get} {set}                 
+DefinedSize               Property   int DefinedSize () {get} {set}                                 
+Name                      Property   string Name () {get} {set}                                     
+NumericScale              Property   byte NumericScale () {get} {set}                               
+ParentCatalog             Property   _Catalog ParentCatalog () {get} {set} {set by ref}             
+Precision                 Property   int Precision () {get} {set}                                   
+Properties                Property   Properties Properties () {get}                                 
+RelatedColumn             Property   string RelatedColumn () {get} {set}                            
+SortOrder                 Property   SortOrderEnum SortOrder () {get} {set}                         
+Type                      Property   DataTypeEnum Type () {get} {set}                               
+
+

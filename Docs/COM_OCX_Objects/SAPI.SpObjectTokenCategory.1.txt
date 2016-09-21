@@ -1,0 +1,20 @@
+
+
+   TypeName: System.__ComObject#{ca7eac50-2d01-4145-86d4-5ae7d70f4469}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+EnumerateTokens           Method     ISpeechObjectTokens EnumerateTokens (string, string)           
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetDataKey                Method     ISpeechDataKey GetDataKey (SpeechDataKeyLocation)              
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+SetId                     Method     void SetId (string, bool)                                      
+ToString                  Method     string ToString()                                              
+Default                   Property   string Default () {get} {set}                                  
+Id                        Property   string Id () {get}                                             
+
+

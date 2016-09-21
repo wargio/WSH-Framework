@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{c90352f5-643c-4fbc-bb23-e996eb2d51fd}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+declarePrefix             Method     void declarePrefix (string, string)                            
+Equals                    Method     bool Equals(System.Object obj)                                 
+getDeclaredPrefixes       Method     IMXNamespacePrefixes getDeclaredPrefixes ()                    
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+getPrefixes               Method     IMXNamespacePrefixes getPrefixes (string)                      
+GetType                   Method     type GetType()                                                 
+getURI                    Method     Variant getURI (string)                                        
+getURIFromNode            Method     Variant getURIFromNode (string, IXMLDOMNode)                   
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+popContext                Method     void popContext ()                                             
+pushContext               Method     void pushContext ()                                            
+pushNodeContext           Method     void pushNodeContext (IXMLDOMNode, bool)                       
+reset                     Method     void reset ()                                                  
+ToString                  Method     string ToString()                                              
+allowOverride             Property   bool allowOverride () {get} {set}                              
+
+

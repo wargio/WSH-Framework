@@ -1,0 +1,29 @@
+
+
+   TypeName: System.__ComObject#{aa000922-ffbe-11cf-8800-00a0c903b83c}
+
+Name                         MemberType Definition                                                     
+----                         ---------- ----------                                                     
+CreateObjRef                 Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+EnumerateAttributes          Method     string EnumerateAttributes ()                                  
+EnumerateAttributesClose     Method     void EnumerateAttributesClose ()                               
+EnumerateAttributesSetup     Method     void EnumerateAttributesSetup (int)                            
+EnumerateExtensions          Method     string EnumerateExtensions ()                                  
+EnumerateExtensionsClose     Method     void EnumerateExtensionsClose ()                               
+EnumerateExtensionsSetup     Method     void EnumerateExtensionsSetup (int)                            
+Equals                       Method     bool Equals(System.Object obj)                                 
+GetCertificateExtension      Method     Variant GetCertificateExtension (string, int)                  
+GetCertificateExtensionFlags Method     int GetCertificateExtensionFlags ()                            
+GetCertificateProperty       Method     Variant GetCertificateProperty (string, int)                   
+GetHashCode                  Method     int GetHashCode()                                              
+GetLifetimeService           Method     System.Object GetLifetimeService()                             
+GetRequestAttribute          Method     string GetRequestAttribute (string)                            
+GetRequestProperty           Method     Variant GetRequestProperty (string, int)                       
+GetType                      Method     type GetType()                                                 
+InitializeLifetimeService    Method     System.Object InitializeLifetimeService()                      
+SetCertificateExtension      Method     void SetCertificateExtension (string, int, int, Variant)       
+SetCertificateProperty       Method     void SetCertificateProperty (string, int, Variant)             
+SetContext                   Method     void SetContext (int)                                          
+ToString                     Method     string ToString()                                              
+
+

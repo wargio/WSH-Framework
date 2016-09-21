@@ -1,0 +1,18 @@
+
+
+   TypeName: System.__ComObject#{9a9f12b8-80af-47ab-a579-35ea57725370}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+EnumTraceGuid             Method     void EnumTraceGuid (int, string)                               
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+StartTraceGuid            Method     void StartTraceGuid (string, string, int)                      
+StopTraceGuid             Method     void StopTraceGuid (string, string, int)                       
+ToString                  Method     string ToString()                                              
+
+

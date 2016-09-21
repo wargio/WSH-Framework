@@ -1,0 +1,40 @@
+
+
+   TypeName: System.__ComObject#{27354155-8f64-5b0f-8f00-5d77afbe261e}
+
+Name                           MemberType Definition                                                               
+----                           ---------- ----------                                                               
+CancelWrite                    Method     void CancelWrite ()                                                      
+CreateObjRef                   Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)          
+Equals                         Method     bool Equals(System.Object obj)                                           
+GetHashCode                    Method     int GetHashCode()                                                        
+GetLifetimeService             Method     System.Object GetLifetimeService()                                       
+GetType                        Method     type GetType()                                                           
+InitializeLifetimeService      Method     System.Object InitializeLifetimeService()                                
+IsCurrentMediaSupported        Method     bool IsCurrentMediaSupported (IDiscRecorder2)                            
+IsRecorderSupported            Method     bool IsRecorderSupported (IDiscRecorder2)                                
+PrepareMedia                   Method     void PrepareMedia ()                                                     
+ReleaseMedia                   Method     void ReleaseMedia ()                                                     
+SetWriteSpeed                  Method     void SetWriteSpeed (int, bool)                                           
+ToString                       Method     string ToString()                                                        
+WriteMedia                     Method     void WriteMedia (IStream)                                                
+WriteMedia2                    Method     void WriteMedia2 (IStream, int)                                          
+BufferUnderrunFreeDisabled     Property   bool BufferUnderrunFreeDisabled () {get} {set}                           
+ClientName                     Property   string ClientName () {get} {set}                                         
+CurrentPhysicalMediaType       Property   IMAPI_MEDIA_PHYSICAL_TYPE CurrentPhysicalMediaType () {get}              
+CurrentRotationTypeIsPureCAV   Property   bool CurrentRotationTypeIsPureCAV () {get}                               
+CurrentWriteSpeed              Property   int CurrentWriteSpeed () {get}                                           
+LastPossibleStartOfLeadout     Property   int LastPossibleStartOfLeadout () {get}                                  
+MediaHeuristicallyBlank        Property   bool MediaHeuristicallyBlank () {get}                                    
+MediaPhysicallyBlank           Property   bool MediaPhysicallyBlank () {get}                                       
+Recorder                       Property   IDiscRecorder2 Recorder () {get} {set}                                   
+RequestedRotationTypeIsPureCAV Property   bool RequestedRotationTypeIsPureCAV () {get}                             
+RequestedSectorType            Property   IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE RequestedSectorType () {get} {set} 
+RequestedWriteSpeed            Property   int RequestedWriteSpeed () {get}                                         
+StartOfNextSession             Property   int StartOfNextSession () {get}                                          
+SupportedMediaTypes            Property   SAFEARRAY(Variant) SupportedMediaTypes () {get}                          
+SupportedSectorTypes           Property   SAFEARRAY(Variant) SupportedSectorTypes () {get}                         
+SupportedWriteSpeedDescriptors Property   SAFEARRAY(Variant) SupportedWriteSpeedDescriptors () {get}               
+SupportedWriteSpeeds           Property   SAFEARRAY(Variant) SupportedWriteSpeeds () {get}                         
+
+

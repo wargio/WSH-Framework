@@ -1,0 +1,26 @@
+
+
+   TypeName: System.__ComObject#{f10d27cc-3ec0-415c-8ed8-77ab1c5e7262}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+addAttribute              Method     void addAttribute (string, string, string, string, string)     
+addAttributeFromIndex     Method     void addAttributeFromIndex (Variant, int)                      
+clear                     Method     void clear ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+removeAttribute           Method     void removeAttribute (int)                                     
+setAttribute              Method     void setAttribute (int, string, string, string, string, string)
+setAttributes             Method     void setAttributes (Variant)                                   
+setLocalName              Method     void setLocalName (int, string)                                
+setQName                  Method     void setQName (int, string)                                    
+setType                   Method     void setType (int, string)                                     
+setURI                    Method     void setURI (int, string)                                      
+setValue                  Method     void setValue (int, string)                                    
+ToString                  Method     string ToString()                                              
+
+

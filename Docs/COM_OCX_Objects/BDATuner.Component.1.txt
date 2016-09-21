@@ -1,0 +1,20 @@
+
+
+   TypeName: System.__ComObject#{1a5576fc-0e19-11d3-9d8e-00c04f72d980}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Clone                     Method     IComponent Clone ()                                            
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+DescLangID                Property   int DescLangID () {get} {set}                                  
+Description               Property   string Description () {get}                                    
+Status                    Property   ComponentStatus Status () {get} {set}                          
+Type                      Property   IComponentType Type () {get}                                   
+
+

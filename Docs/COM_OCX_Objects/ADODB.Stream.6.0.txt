@@ -1,0 +1,36 @@
+
+
+   TypeName: System.__ComObject#{00001565-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                                 
+----                      ---------- ----------                                                                 
+Cancel                    Method     void Cancel ()                                                             
+Close                     Method     void Close ()                                                              
+CopyTo                    Method     void CopyTo (_Stream, int)                                                 
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)            
+Equals                    Method     bool Equals(System.Object obj)                                             
+Flush                     Method     void Flush ()                                                              
+GetHashCode               Method     int GetHashCode()                                                          
+GetLifetimeService        Method     System.Object GetLifetimeService()                                         
+GetType                   Method     type GetType()                                                             
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                  
+LoadFromFile              Method     void LoadFromFile (string)                                                 
+Open                      Method     void Open (Variant, ConnectModeEnum, StreamOpenOptionsEnum, string, string)
+Read                      Method     Variant Read (int)                                                         
+ReadText                  Method     string ReadText (int)                                                      
+SaveToFile                Method     void SaveToFile (string, SaveOptionsEnum)                                  
+SetEOS                    Method     void SetEOS ()                                                             
+SkipLine                  Method     void SkipLine ()                                                           
+ToString                  Method     string ToString()                                                          
+Write                     Method     void Write (Variant)                                                       
+WriteText                 Method     void WriteText (string, StreamWriteEnum)                                   
+Charset                   Property   string Charset () {get} {set}                                              
+EOS                       Property   bool EOS () {get}                                                          
+LineSeparator             Property   LineSeparatorEnum LineSeparator () {get} {set}                             
+Mode                      Property   ConnectModeEnum Mode () {get} {set}                                        
+Position                  Property   int Position () {get} {set}                                                
+Size                      Property   int Size () {get}                                                          
+State                     Property   ObjectStateEnum State () {get}                                             
+Type                      Property   StreamTypeEnum Type () {get} {set}                                         
+
+

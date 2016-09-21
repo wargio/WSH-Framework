@@ -1,0 +1,58 @@
+
+
+   TypeName: System.__ComObject#{24be5a31-edfe-11d2-b933-00104b365c9f}
+
+Name                        MemberType Definition                                                           
+----                        ---------- ----------                                                           
+AddPrinterConnection        Method     void AddPrinterConnection (string, string, Variant, Variant, Variant)
+AddWindowsPrinterConnection Method     void AddWindowsPrinterConnection (string, string, string)            
+CreateObjRef                Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)      
+EnumNetworkDrives           Method     IWshCollection EnumNetworkDrives ()                                  
+EnumPrinterConnections      Method     IWshCollection EnumPrinterConnections ()                             
+Equals                      Method     bool Equals(System.Object obj)                                       
+GetHashCode                 Method     int GetHashCode()                                                    
+GetLifetimeService          Method     System.Object GetLifetimeService()                                   
+GetType                     Method     type GetType()                                                       
+InitializeLifetimeService   Method     System.Object InitializeLifetimeService()                            
+MapNetworkDrive             Method     void MapNetworkDrive (string, string, Variant, Variant, Variant)     
+RemoveNetworkDrive          Method     void RemoveNetworkDrive (string, Variant, Variant)                   
+RemovePrinterConnection     Method     void RemovePrinterConnection (string, Variant, Variant)              
+SetDefaultPrinter           Method     void SetDefaultPrinter (string)                                      
+ToString                    Method     string ToString()                                                    
+ComputerName                Property   string ComputerName () {get}                                         
+Organization                Property   string Organization () {get}                                         
+Site                        Property   string Site () {get}                                                 
+UserDomain                  Property   string UserDomain () {get}                                           
+UserName                    Property   string UserName () {get}                                             
+UserProfile                 Property   string UserProfile () {get}                                          
+
+
+
+
+   TypeName: System.__ComObject#{24be5a31-edfe-11d2-b933-00104b365c9f}
+
+Name                        MemberType Definition                                                           
+----                        ---------- ----------                                                           
+AddPrinterConnection        Method     void AddPrinterConnection (string, string, Variant, Variant, Variant)
+AddWindowsPrinterConnection Method     void AddWindowsPrinterConnection (string, string, string)            
+CreateObjRef                Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)      
+EnumNetworkDrives           Method     IWshCollection EnumNetworkDrives ()                                  
+EnumPrinterConnections      Method     IWshCollection EnumPrinterConnections ()                             
+Equals                      Method     bool Equals(System.Object obj)                                       
+GetHashCode                 Method     int GetHashCode()                                                    
+GetLifetimeService          Method     System.Object GetLifetimeService()                                   
+GetType                     Method     type GetType()                                                       
+InitializeLifetimeService   Method     System.Object InitializeLifetimeService()                            
+MapNetworkDrive             Method     void MapNetworkDrive (string, string, Variant, Variant, Variant)     
+RemoveNetworkDrive          Method     void RemoveNetworkDrive (string, Variant, Variant)                   
+RemovePrinterConnection     Method     void RemovePrinterConnection (string, Variant, Variant)              
+SetDefaultPrinter           Method     void SetDefaultPrinter (string)                                      
+ToString                    Method     string ToString()                                                    
+ComputerName                Property   string ComputerName () {get}                                         
+Organization                Property   string Organization () {get}                                         
+Site                        Property   string Site () {get}                                                 
+UserDomain                  Property   string UserDomain () {get}                                           
+UserName                    Property   string UserName () {get}                                             
+UserProfile                 Property   string UserProfile () {get}                                          
+
+

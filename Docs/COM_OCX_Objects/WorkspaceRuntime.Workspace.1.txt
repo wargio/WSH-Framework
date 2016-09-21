@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{531e6512-2cbf-4bd2-80a5-d90a71636a9a}
+
+Name                              MemberType Definition                                                                                             
+----                              ---------- ----------                                                                                             
+ClearWorkspaceCredential          Method     void ClearWorkspaceCredential (string)                                                                 
+CreateObjRef                      Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                        
+DisconnectWorkspace               Method     void DisconnectWorkspace (string)                                                                      
+DisconnectWorkspaceByFriendlyName Method     void DisconnectWorkspaceByFriendlyName (string)                                                        
+Equals                            Method     bool Equals(System.Object obj)                                                                         
+GetHashCode                       Method     int GetHashCode()                                                                                      
+GetLifetimeService                Method     System.Object GetLifetimeService()                                                                     
+GetType                           Method     type GetType()                                                                                         
+InitializeLifetimeService         Method     System.Object InitializeLifetimeService()                                                              
+IsWorkspaceCredentialSpecified    Method     bool IsWorkspaceCredentialSpecified (string, bool)                                                     
+IsWorkspaceSSOEnabled             Method     bool IsWorkspaceSSOEnabled ()                                                                          
+OnAuthenticated                   Method     void OnAuthenticated (string, string)                                                                  
+ResourceDismissed                 Method     void ResourceDismissed (string, string)                                                                
+StartWorkspace                    Method     void StartWorkspace (string, string, string, string, int, int)                                         
+StartWorkspaceEx                  Method     void StartWorkspaceEx (string, string, string, string, string, string, string, int, int)               
+StartWorkspaceEx2                 Method     void StartWorkspaceEx2 (string, string, string, string, string, string, string, int, int, string, GUID)
+ToString                          Method     string ToString()                                                                                      
+
+

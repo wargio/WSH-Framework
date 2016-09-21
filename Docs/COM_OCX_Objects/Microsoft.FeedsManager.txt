@@ -1,0 +1,30 @@
+
+
+   TypeName: System.__ComObject#{a74029cc-1f1a-4906-88f0-810638d86591}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AsyncSyncAll              Method     void AsyncSyncAll ()                                           
+BackgroundSync            Method     void BackgroundSync (FEEDS_BACKGROUNDSYNC_ACTION)              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DeleteFeed                Method     void DeleteFeed (string)                                       
+DeleteFolder              Method     void DeleteFolder (string)                                     
+Equals                    Method     bool Equals(System.Object obj)                                 
+ExistsFeed                Method     bool ExistsFeed (string)                                       
+ExistsFolder              Method     bool ExistsFolder (string)                                     
+GetFeed                   Method     IDispatch GetFeed (string)                                     
+GetFeedByUrl              Method     IDispatch GetFeedByUrl (string)                                
+GetFolder                 Method     IDispatch GetFolder (string)                                   
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+IsSubscribed              Method     bool IsSubscribed (string)                                     
+Normalize                 Method     string Normalize (string)                                      
+ToString                  Method     string ToString()                                              
+BackgroundSyncStatus      Property   FEEDS_BACKGROUNDSYNC_STATUS BackgroundSyncStatus () {get}      
+DefaultInterval           Property   int DefaultInterval () {get} {set}                             
+ItemCountLimit            Property   int ItemCountLimit () {get}                                    
+RootFolder                Property   IDispatch RootFolder () {get}                                  
+
+

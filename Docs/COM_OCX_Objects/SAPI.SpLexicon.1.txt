@@ -1,0 +1,23 @@
+
+
+   TypeName: System.__ComObject#{3da7627a-c7ae-4b23-8708-638c50362c25}
+
+Name                          MemberType Definition                                                                     
+----                          ---------- ----------                                                                     
+AddPronunciation              Method     void AddPronunciation (string, int, SpeechPartOfSpeech, string)                
+AddPronunciationByPhoneIds    Method     void AddPronunciationByPhoneIds (string, int, SpeechPartOfSpeech, Variant)     
+CreateObjRef                  Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                
+Equals                        Method     bool Equals(System.Object obj)                                                 
+GetGenerationChange           Method     ISpeechLexiconWords GetGenerationChange (int)                                  
+GetHashCode                   Method     int GetHashCode()                                                              
+GetLifetimeService            Method     System.Object GetLifetimeService()                                             
+GetPronunciations             Method     ISpeechLexiconPronunciations GetPronunciations (string, int, SpeechLexiconType)
+GetType                       Method     type GetType()                                                                 
+GetWords                      Method     ISpeechLexiconWords GetWords (SpeechLexiconType, int)                          
+InitializeLifetimeService     Method     System.Object InitializeLifetimeService()                                      
+RemovePronunciation           Method     void RemovePronunciation (string, int, SpeechPartOfSpeech, string)             
+RemovePronunciationByPhoneIds Method     void RemovePronunciationByPhoneIds (string, int, SpeechPartOfSpeech, Variant)  
+ToString                      Method     string ToString()                                                              
+GenerationId                  Property   int GenerationId () {get}                                                      
+
+

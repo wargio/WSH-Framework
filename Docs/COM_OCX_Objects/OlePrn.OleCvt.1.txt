@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{65303442-ad66-11d1-9d65-00c04fc30df6}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method                bool Equals(System.Object obj)                                 
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+OnEndPage                 Method                void OnEndPage ()                                              
+OnStartPage               Method                void OnStartPage (IUnknown)                                    
+ToString                  Method                string ToString()                                              
+ASPString                 ParameterizedProperty string ASPString (int) {get}                                   
+ASPString1                ParameterizedProperty string ASPString1 (int, string) {get}                          
+ASPString2                ParameterizedProperty string ASPString2 (int, string, string) {get}                  
+DecodeUnicodeName         ParameterizedProperty string DecodeUnicodeName (string) {get}                        
+EncodeUnicodeName         ParameterizedProperty string EncodeUnicodeName (string) {get}                        
+ToUnicode                 ParameterizedProperty string ToUnicode (string, int) {get}                           
+ToUtf8                    ParameterizedProperty string ToUtf8 (string) {get}                                   
+SystemLocale              Property              string SystemLocale () {get}                                   
+
+

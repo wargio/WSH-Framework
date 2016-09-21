@@ -1,0 +1,27 @@
+
+
+   TypeName: System.__ComObject#{8c033caa-6cd6-4f73-b728-4531af74945f}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+getFeature                Method     bool getFeature (string)                                       
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+getProperty               Method     Variant getProperty (string)                                   
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+parse                     Method     void parse (Variant)                                           
+parseURL                  Method     void parseURL (string)                                         
+putFeature                Method     void putFeature (string, bool)                                 
+putProperty               Method     void putProperty (string, Variant)                             
+ToString                  Method     string ToString()                                              
+baseURL                   Property   string baseURL () {get} {set}                                  
+contentHandler            Property   IVBSAXContentHandler contentHandler () {get} {set by ref}      
+dtdHandler                Property   IVBSAXDTDHandler dtdHandler () {get} {set by ref}              
+entityResolver            Property   IVBSAXEntityResolver entityResolver () {get} {set by ref}      
+errorHandler              Property   IVBSAXErrorHandler errorHandler () {get} {set by ref}          
+secureBaseURL             Property   string secureBaseURL () {get} {set}                            
+
+

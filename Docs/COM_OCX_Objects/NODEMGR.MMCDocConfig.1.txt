@@ -1,0 +1,19 @@
+
+
+   TypeName: System.__ComObject#{f1e752c2-fd72-11d0-aef6-00c04fb6dd2c}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CloseFile                 Method     void CloseFile ()                                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+EnableSnapInExtension     Method     void EnableSnapInExtension (string, string, bool)              
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+OpenFile                  Method     void OpenFile (string)                                         
+SaveFile                  Method     void SaveFile (string)                                         
+ToString                  Method     string ToString()                                              
+
+

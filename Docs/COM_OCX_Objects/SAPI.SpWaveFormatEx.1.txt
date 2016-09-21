@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{7a1ef0d5-1581-4741-88e4-209a49f11a10}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+AvgBytesPerSec            Property   int AvgBytesPerSec () {get} {set}                              
+BitsPerSample             Property   short BitsPerSample () {get} {set}                             
+BlockAlign                Property   short BlockAlign () {get} {set}                                
+Channels                  Property   short Channels () {get} {set}                                  
+ExtraData                 Property   Variant ExtraData () {get} {set}                               
+FormatTag                 Property   short FormatTag () {get} {set}                                 
+SamplesPerSec             Property   int SamplesPerSec () {get} {set}                               
+
+

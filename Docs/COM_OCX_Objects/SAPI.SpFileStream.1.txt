@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{af67f125-ab39-4e93-b4a2-cc2e66e182a7}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Close                     Method     void Close ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Open                      Method     void Open (string, SpeechStreamFileMode, bool)                 
+Read                      Method     int Read (Variant, int)                                        
+Seek                      Method     Variant Seek (Variant, SpeechStreamSeekPositionType)           
+ToString                  Method     string ToString()                                              
+Write                     Method     int Write (Variant)                                            
+Format                    Property   ISpeechAudioFormat Format () {get} {set by ref}                
+
+

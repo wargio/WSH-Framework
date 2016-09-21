@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{c3701883-b39b-11d1-9d68-00c04fc30df6}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+InstallPrinter            Method     void InstallPrinter (string, string)                           
+OpenPrintersFolder        Method     void OpenPrintersFolder ()                                     
+ToString                  Method     string ToString()                                              
+
+

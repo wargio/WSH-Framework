@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{f3eb39bc-1b1f-4e99-a0c0-56305c4dd591}
+
+Name                              MemberType            Definition                                                                   
+----                              ----------            ----------                                                                   
+CreateObjRef                      Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)              
+CreateTerminal                    Method                ITTerminal CreateTerminal (string, int, TERMINAL_DIRECTION)                  
+EnumerateDynamicTerminalClasses   Method                IEnumTerminalClass EnumerateDynamicTerminalClasses ()                        
+EnumeratePluggableSuperclasses    Method                IEnumPluggableSuperclassInfo EnumeratePluggableSuperclasses ()               
+EnumeratePluggableTerminalClasses Method                IEnumPluggableTerminalClassInfo EnumeratePluggableTerminalClasses (GUID, int)
+EnumerateStaticTerminals          Method                IEnumTerminal EnumerateStaticTerminals ()                                    
+Equals                            Method                bool Equals(System.Object obj)                                               
+GetDefaultStaticTerminal          Method                ITTerminal GetDefaultStaticTerminal (int, TERMINAL_DIRECTION)                
+GetHashCode                       Method                int GetHashCode()                                                            
+GetLifetimeService                Method                System.Object GetLifetimeService()                                           
+GetType                           Method                type GetType()                                                               
+InitializeLifetimeService         Method                System.Object InitializeLifetimeService()                                    
+ToString                          Method                string ToString()                                                            
+PluggableTerminalClasses          ParameterizedProperty Variant PluggableTerminalClasses (string, int) {get}                         
+DynamicTerminalClasses            Property              Variant DynamicTerminalClasses () {get}                                      
+PluggableSuperclasses             Property              Variant PluggableSuperclasses () {get}                                       
+StaticTerminals                   Property              Variant StaticTerminals () {get}                                             
+
+

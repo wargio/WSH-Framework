@@ -1,0 +1,19 @@
+
+
+   TypeName: System.__ComObject#{97d8b206-3401-4006-b872-f95a679d7ca3}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Sign                      Method     string Sign (string, string, string, string)                   
+SignFile                  Method     void SignFile (string, string, string)                         
+ToString                  Method     string ToString()                                              
+Verify                    Method     bool Verify (string, string, bool)                             
+VerifyFile                Method     bool VerifyFile (string, bool)                                 
+
+

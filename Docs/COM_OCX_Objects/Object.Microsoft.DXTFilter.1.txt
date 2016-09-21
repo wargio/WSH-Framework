@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{9519152b-9484-4a6c-b6a7-4f25e92d6c6b}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Apply                     Method     void Apply ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Play                      Method     void Play (Variant)                                            
+Stop                      Method     void Stop ()                                                   
+ToString                  Method     string ToString()                                              
+Duration                  Property   float Duration () {get} {set}                                  
+Enabled                   Property   bool Enabled () {get} {set}                                    
+Percent                   Property   float Percent () {get} {set}                                   
+Status                    Property   DXTFILTER_STATUS Status () {get}                               
+
+

@@ -1,0 +1,74 @@
+
+
+   TypeName: System.__ComObject#{13d73d81-c32e-11cf-9398-00aa00a3ddea}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+AddCounter                Method                void AddCounter (string, ICounterItem)                         
+BatchingLock              Method                void BatchingLock (bool, SysmonBatchReason)                    
+BrowseCounters            Method                void BrowseCounters ()                                         
+ClearData                 Method                void ClearData ()                                              
+CollectSample             Method                void CollectSample ()                                          
+Copy                      Method                void Copy ()                                                   
+Counter                   Method                void Counter (int, ICounterItem)                               
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DeleteCounter             Method                void DeleteCounter (ICounterItem)                              
+DisplayProperties         Method                void DisplayProperties ()                                      
+Equals                    Method                bool Equals(System.Object obj)                                 
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetLogViewRange           Method                void GetLogViewRange (Date, Date)                              
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+LoadSettings              Method                void LoadSettings (string)                                     
+Paste                     Method                void Paste ()                                                  
+Relog                     Method                void Relog (string, SysmonFileType, int)                       
+Reset                     Method                void Reset ()                                                  
+SaveAs                    Method                void SaveAs (string, SysmonFileType)                           
+ScaleToFit                Method                void ScaleToFit (bool)                                         
+SetLogViewRange           Method                void SetLogViewRange (Date, Date)                              
+ToString                  Method                string ToString()                                              
+UpdateGraph               Method                void UpdateGraph ()                                            
+LogSourceStartTime        ParameterizedProperty void LogSourceStartTime (Date) {get}                           
+LogSourceStopTime         ParameterizedProperty void LogSourceStopTime (Date) {get}                            
+Appearance                Property              int Appearance () {get} {set}                                  
+BackColor                 Property              OLE_COLOR BackColor () {get} {set}                             
+BackColorCtl              Property              OLE_COLOR BackColorCtl () {get} {set}                          
+BorderStyle               Property              int BorderStyle () {get} {set}                                 
+ChartScroll               Property              bool ChartScroll () {get} {set}                                
+Counters                  Property              ICounters Counters () {get}                                    
+DataPointCount            Property              int DataPointCount () {get} {set}                              
+DataSourceType            Property              DataSourceTypeConstants DataSourceType () {get} {set}          
+DisplayFilter             Property              int DisplayFilter () {get} {set}                               
+DisplayType               Property              DisplayTypeConstants DisplayType () {get} {set}                
+EnableDigitGrouping       Property              bool EnableDigitGrouping () {get} {set}                        
+EnableToolTips            Property              bool EnableToolTips () {get} {set}                             
+Font                      Property              IFontDisp Font () {get} {set by ref}                           
+ForeColor                 Property              OLE_COLOR ForeColor () {get} {set}                             
+GraphTitle                Property              string GraphTitle () {get} {set}                               
+GridColor                 Property              OLE_COLOR GridColor () {get} {set}                             
+Highlight                 Property              bool Highlight () {get} {set}                                  
+LogFileName               Property              string LogFileName () {get} {set}                              
+LogFiles                  Property              ILogFiles LogFiles () {get}                                    
+LogViewStart              Property              Date LogViewStart () {get} {set}                               
+LogViewStop               Property              Date LogViewStop () {get} {set}                                
+ManualUpdate              Property              bool ManualUpdate () {get} {set}                               
+MaximumScale              Property              int MaximumScale () {get} {set}                                
+MinimumScale              Property              int MinimumScale () {get} {set}                                
+MonitorDuplicateInstances Property              bool MonitorDuplicateInstances () {get} {set}                  
+ReadOnly                  Property              bool ReadOnly () {get} {set}                                   
+ReportValueType           Property              ReportValueTypeConstants ReportValueType () {get} {set}        
+ShowHorizontalGrid        Property              bool ShowHorizontalGrid () {get} {set}                         
+ShowLegend                Property              bool ShowLegend () {get} {set}                                 
+ShowScaleLabels           Property              bool ShowScaleLabels () {get} {set}                            
+ShowTimeAxisLabels        Property              bool ShowTimeAxisLabels () {get} {set}                         
+ShowToolbar               Property              bool ShowToolbar () {get} {set}                                
+ShowValueBar              Property              bool ShowValueBar () {get} {set}                               
+ShowVerticalGrid          Property              bool ShowVerticalGrid () {get} {set}                           
+SqlDsnName                Property              string SqlDsnName () {get} {set}                               
+SqlLogSetName             Property              string SqlLogSetName () {get} {set}                            
+TimeBarColor              Property              OLE_COLOR TimeBarColor () {get} {set}                          
+UpdateInterval            Property              float UpdateInterval () {get} {set}                            
+YAxisLabel                Property              string YAxisLabel () {get} {set}                               
+
+

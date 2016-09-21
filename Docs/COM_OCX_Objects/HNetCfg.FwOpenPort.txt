@@ -1,0 +1,23 @@
+
+
+   TypeName: System.__ComObject#{e0483ba0-47ff-4d9c-a6d6-7741d0b195f7}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+BuiltIn                   Property   bool BuiltIn () {get}                                          
+Enabled                   Property   bool Enabled () {get} {set}                                    
+IpVersion                 Property   NET_FW_IP_VERSION_ IpVersion () {get} {set}                    
+Name                      Property   string Name () {get} {set}                                     
+Port                      Property   int Port () {get} {set}                                        
+Protocol                  Property   NET_FW_IP_PROTOCOL_ Protocol () {get} {set}                    
+RemoteAddresses           Property   string RemoteAddresses () {get} {set}                          
+Scope                     Property   NET_FW_SCOPE_ Scope () {get} {set}                             
+
+

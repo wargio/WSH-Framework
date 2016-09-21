@@ -1,0 +1,27 @@
+
+
+   TypeName: System.__ComObject#{bb44391e-6abd-422f-9e2e-385c9dff51fc}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Capabilities              Property   int Capabilities () {get}                                      
+Duration                  Property   float Duration () {get} {set}                                  
+Height                    Property   int Height () {get} {set}                                      
+OffsetX                   Property   int OffsetX () {get} {set}                                     
+OffsetY                   Property   int OffsetY () {get} {set}                                     
+Progress                  Property   float Progress () {get} {set}                                  
+SrcHeight                 Property   int SrcHeight () {get} {set}                                   
+SrcOffsetX                Property   int SrcOffsetX () {get} {set}                                  
+SrcOffsetY                Property   int SrcOffsetY () {get} {set}                                  
+SrcWidth                  Property   int SrcWidth () {get} {set}                                    
+StepResolution            Property   float StepResolution () {get}                                  
+Width                     Property   int Width () {get} {set}                                       
+
+

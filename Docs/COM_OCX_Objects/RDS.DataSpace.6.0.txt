@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{bd96c556-65a3-11d0-983a-00c04fc29e34}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObject              Method     Variant CreateObject (string, string)                          
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+InternetTimeout           Property   int InternetTimeout () {get} {set}                             
+
+

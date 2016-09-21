@@ -1,0 +1,26 @@
+
+
+   TypeName: System.__ComObject#{fb2b72a1-7a68-11d1-88f9-0080c7d771bf}
+
+Name                               MemberType Definition                                                     
+----                               ---------- ----------                                                     
+CreateObjRef                       Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                             Method     bool Equals(System.Object obj)                                 
+GetHashCode                        Method     int GetHashCode()                                              
+GetLifetimeService                 Method     System.Object GetLifetimeService()                             
+GetType                            Method     type GetType()                                                 
+InitializeLifetimeService          Method     System.Object InitializeLifetimeService()                      
+ToString                           Method     string ToString()                                              
+AllowInprocActivation              Property   int AllowInprocActivation () {get} {set}                       
+CustomConfigCLSID                  Property   string CustomConfigCLSID () {get} {set}                        
+Description                        Property   string Description () {get} {set}                              
+EventClassID                       Property   string EventClassID () {get} {set}                             
+EventClassName                     Property   string EventClassName () {get} {set}                           
+FireInParallel                     Property   int FireInParallel () {get} {set}                              
+FiringInterfaceID                  Property   string FiringInterfaceID () {get} {set}                        
+MultiInterfacePublisherFilterCLSID Property   string MultiInterfacePublisherFilterCLSID () {get} {set}       
+OwnerSID                           Property   string OwnerSID () {get} {set}                                 
+PublisherID                        Property   string PublisherID () {get} {set}                              
+TypeLib                            Property   string TypeLib () {get} {set}                                  
+
+

@@ -1,0 +1,40 @@
+
+
+   TypeName: stdole.StdFontClass
+
+Name                      MemberType Definition                                                                                                                                                     
+----                      ---------- ----------                                                                                                                                                     
+FontChanged               Event      stdole.FontEvents_FontChangedEventHandler FontChanged(System.String)                                                                                           
+AddRefHfont               Method     void AddRefHfont(int hFont), void IFont.AddRefHfont(int hFont)                                                                                                 
+add_FontChanged           Method     void add_FontChanged(stdole.FontEvents_FontChangedEventHandler A_1), void FontEvents_Event.add_FontChanged(stdole.FontEvents_FontChangedEventHandler A_1)      
+Clone                     Method     void Clone([ref] stdole.IFont ppfont), void IFont.Clone([ref] stdole.IFont ppfont)                                                                             
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                                                                                
+Equals                    Method     bool Equals(System.Object obj)                                                                                                                                 
+GetHashCode               Method     int GetHashCode()                                                                                                                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                                                                                             
+GetType                   Method     type GetType()                                                                                                                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                                                                                                      
+IsEqual                   Method     void IsEqual(stdole.IFont pfontOther), void IFont.IsEqual(stdole.IFont pfontOther)                                                                             
+ReleaseHfont              Method     void ReleaseHfont(int hFont), void IFont.ReleaseHfont(int hFont)                                                                                               
+remove_FontChanged        Method     void remove_FontChanged(stdole.FontEvents_FontChangedEventHandler A_1), void FontEvents_Event.remove_FontChanged(stdole.FontEvents_FontChangedEventHandler A_1)
+SetRatio                  Method     void SetRatio(int cyLogical, int cyHimetric), void IFont.SetRatio(int cyLogical, int cyHimetric)                                                               
+ToString                  Method     string ToString()                                                                                                                                              
+Bold                      Property   bool Bold {get;set;}                                                                                                                                           
+Charset                   Property   int16 Charset {get;set;}                                                                                                                                       
+hFont                     Property   int hFont {get;}                                                                                                                                               
+IFont_Bold                Property   bool IFont_Bold {get;set;}                                                                                                                                     
+IFont_Charset             Property   int16 IFont_Charset {get;set;}                                                                                                                                 
+IFont_Italic              Property   bool IFont_Italic {get;set;}                                                                                                                                   
+IFont_Name                Property   string IFont_Name {get;set;}                                                                                                                                   
+IFont_Size                Property   decimal IFont_Size {get;set;}                                                                                                                                  
+IFont_Strikethrough       Property   bool IFont_Strikethrough {get;set;}                                                                                                                            
+IFont_Underline           Property   bool IFont_Underline {get;set;}                                                                                                                                
+IFont_Weight              Property   int16 IFont_Weight {get;set;}                                                                                                                                  
+Italic                    Property   bool Italic {get;set;}                                                                                                                                         
+Name                      Property   string Name {get;set;}                                                                                                                                         
+Size                      Property   decimal Size {get;set;}                                                                                                                                        
+Strikethrough             Property   bool Strikethrough {get;set;}                                                                                                                                  
+Underline                 Property   bool Underline {get;set;}                                                                                                                                      
+Weight                    Property   int16 Weight {get;set;}                                                                                                                                        
+
+

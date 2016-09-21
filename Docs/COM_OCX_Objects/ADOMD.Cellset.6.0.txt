@@ -1,0 +1,24 @@
+
+
+   TypeName: System.__ComObject#{2281372a-8bd3-11d0-b4ef-00a0c9138ca4}
+
+Name                      MemberType            Definition                                                     
+----                      ----------            ----------                                                     
+Close                     Method                void Close ()                                                  
+CreateObjRef              Method                System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method                bool Equals(System.Object obj)                                 
+GetHashCode               Method                int GetHashCode()                                              
+GetLifetimeService        Method                System.Object GetLifetimeService()                             
+GetType                   Method                type GetType()                                                 
+InitializeLifetimeService Method                System.Object InitializeLifetimeService()                      
+Open                      Method                void Open (Variant, Variant)                                   
+ToString                  Method                string ToString()                                              
+Item                      ParameterizedProperty Cell Item (SAFEARRAY(Variant)) {get}                           
+ActiveConnection          Property              IDispatch ActiveConnection () {get} {set} {set by ref}         
+Axes                      Property              Axes Axes () {get}                                             
+FilterAxis                Property              Axis FilterAxis () {get}                                       
+Properties                Property              Properties Properties () {get}                                 
+Source                    Property              Variant Source () {get} {set} {set by ref}                     
+State                     Property              int State () {get}                                             
+
+

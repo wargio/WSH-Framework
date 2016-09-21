@@ -1,0 +1,19 @@
+
+
+   TypeName: mshtml.HtmlDlgSafeHelperClass
+
+Name                      MemberType Definition                                                                                                                     
+----                      ---------- ----------                                                                                                                     
+choosecolordlg            Method     System.Object choosecolordlg(System.Object initColor), System.Object IHtmlDlgSafeHelper.choosecolordlg(System.Object initColor)
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                                                
+Equals                    Method     bool Equals(System.Object obj)                                                                                                 
+getCharset                Method     System.Object getCharset(string fontName), System.Object IHtmlDlgSafeHelper.getCharset(string fontName)                        
+GetHashCode               Method     int GetHashCode()                                                                                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                                                             
+GetType                   Method     type GetType()                                                                                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                                                                      
+ToString                  Method     string ToString()                                                                                                              
+BlockFormats              Property   System.Object BlockFormats {get;}                                                                                              
+fonts                     Property   System.Object fonts {get;}                                                                                                     
+
+

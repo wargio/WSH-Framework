@@ -1,0 +1,66 @@
+
+
+   TypeName: System.__ComObject#{adb880a1-d8ff-11cf-9377-00aa003b7a11}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Click                     Method     void Click ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+HHClick                   Method     void HHClick ()                                                
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Print                     Method     void Print ()                                                  
+syncURL                   Method     void syncURL (string)                                          
+TCard                     Method     void TCard (UINT_PTR, LONG_PTR)                                
+TextPopup                 Method     void TextPopup (string, string, int, int, uint, uint)          
+ToString                  Method     string ToString()                                              
+Image                     Property   string Image () {get} {set}                                    
+
+
+
+
+   TypeName: System.__ComObject#{adb880a1-d8ff-11cf-9377-00aa003b7a11}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Click                     Method     void Click ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+HHClick                   Method     void HHClick ()                                                
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Print                     Method     void Print ()                                                  
+syncURL                   Method     void syncURL (string)                                          
+TCard                     Method     void TCard (UINT_PTR, LONG_PTR)                                
+TextPopup                 Method     void TextPopup (string, string, int, int, uint, uint)          
+ToString                  Method     string ToString()                                              
+Image                     Property   string Image () {get} {set}                                    
+
+
+
+
+   TypeName: System.__ComObject#{adb880a1-d8ff-11cf-9377-00aa003b7a11}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Click                     Method     void Click ()                                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+HHClick                   Method     void HHClick ()                                                
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Print                     Method     void Print ()                                                  
+syncURL                   Method     void syncURL (string)                                          
+TCard                     Method     void TCard (UINT_PTR, LONG_PTR)                                
+TextPopup                 Method     void TextPopup (string, string, int, int, uint, uint)          
+ToString                  Method     string ToString()                                              
+Image                     Property   string Image () {get} {set}                                    
+
+

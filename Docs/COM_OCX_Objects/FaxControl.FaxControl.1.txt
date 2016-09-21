@@ -1,0 +1,19 @@
+
+
+   TypeName: System.__ComObject#{32b56515-d48b-4dd9-87ac-9216f6beaa6f}
+
+Name                       MemberType Definition                                                     
+----                       ---------- ----------                                                     
+CreateObjRef               Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                     Method     bool Equals(System.Object obj)                                 
+GetHashCode                Method     int GetHashCode()                                              
+GetLifetimeService         Method     System.Object GetLifetimeService()                             
+GetType                    Method     type GetType()                                                 
+InitializeLifetimeService  Method     System.Object InitializeLifetimeService()                      
+InstallFaxService          Method     void InstallFaxService ()                                      
+InstallLocalFaxPrinter     Method     void InstallLocalFaxPrinter ()                                 
+ToString                   Method     string ToString()                                              
+IsFaxServiceInstalled      Property   bool IsFaxServiceInstalled () {get}                            
+IsLocalFaxPrinterInstalled Property   bool IsLocalFaxPrinterInstalled () {get}                       
+
+

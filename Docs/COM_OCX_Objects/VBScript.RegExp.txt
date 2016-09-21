@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{3f4dacb0-160d-11d2-a8e9-00104b365c9f}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+Execute                   Method     IDispatch Execute (string)                                     
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Replace                   Method     string Replace (string, Variant)                               
+Test                      Method     bool Test (string)                                             
+ToString                  Method     string ToString()                                              
+Global                    Property   bool Global () {get} {set}                                     
+IgnoreCase                Property   bool IgnoreCase () {get} {set}                                 
+Multiline                 Property   bool Multiline () {get} {set}                                  
+Pattern                   Property   string Pattern () {get} {set}                                  
+
+

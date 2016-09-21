@@ -1,0 +1,23 @@
+
+
+   TypeName: System.__ComObject#{623e2881-fc0e-11d1-9a77-0000f8756a10}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+EndColor                  Property   OLE_COLOR EndColor () {get} {set}                              
+EndColorStr               Property   string EndColorStr () {get} {set}                              
+GradientHeight            Property   int GradientHeight () {get} {set}                              
+GradientType              Property   DXGRADIENTTYPE GradientType () {get} {set}                     
+GradientWidth             Property   int GradientWidth () {get} {set}                               
+KeepAspectRatio           Property   bool KeepAspectRatio () {get} {set}                            
+StartColor                Property   OLE_COLOR StartColor () {get} {set}                            
+StartColorStr             Property   string StartColorStr () {get} {set}                            
+
+

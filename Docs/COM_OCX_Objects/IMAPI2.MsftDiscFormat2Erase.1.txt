@@ -1,0 +1,25 @@
+
+
+   TypeName: System.__ComObject#{27354156-8f64-5b0f-8f00-5d77afbe261e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+EraseMedia                Method     void EraseMedia ()                                             
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+IsCurrentMediaSupported   Method     bool IsCurrentMediaSupported (IDiscRecorder2)                  
+IsRecorderSupported       Method     bool IsRecorderSupported (IDiscRecorder2)                      
+ToString                  Method     string ToString()                                              
+ClientName                Property   string ClientName () {get} {set}                               
+CurrentPhysicalMediaType  Property   IMAPI_MEDIA_PHYSICAL_TYPE CurrentPhysicalMediaType () {get}    
+FullErase                 Property   bool FullErase () {get} {set}                                  
+MediaHeuristicallyBlank   Property   bool MediaHeuristicallyBlank () {get}                          
+MediaPhysicallyBlank      Property   bool MediaPhysicallyBlank () {get}                             
+Recorder                  Property   IDiscRecorder2 Recorder () {get} {set}                         
+SupportedMediaTypes       Property   SAFEARRAY(Variant) SupportedMediaTypes () {get}                
+
+

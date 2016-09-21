@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{2c941fd4-975b-59be-a960-9a2a262853a5}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AssignBootImage           Method     void AssignBootImage (IStream)                                 
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+BootImage                 Property   IStream BootImage () {get}                                     
+Emulation                 Property   EmulationType Emulation () {get} {set}                         
+ImageSize                 Property   uint ImageSize () {get}                                        
+Manufacturer              Property   string Manufacturer () {get} {set}                             
+PlatformId                Property   PlatformId PlatformId () {get} {set}                           
+
+

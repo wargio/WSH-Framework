@@ -1,0 +1,20 @@
+
+
+   TypeName: System.__ComObject#{adda3d55-6f72-4319-bff9-18600a539b10}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CancelAsyncFind           Method     void CancelAsyncFind (int)                                     
+CreateAsyncFind           Method     int CreateAsyncFind (string, uint, IUnknown)                   
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+FindByType                Method     IUPnPDevices FindByType (string, uint)                         
+FindByUDN                 Method     IUPnPDevice FindByUDN (string)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+StartAsyncFind            Method     void StartAsyncFind (int)                                      
+ToString                  Method     string ToString()                                              
+
+

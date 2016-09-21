@@ -1,0 +1,36 @@
+
+
+   TypeName: System.__ComObject#{27354133-7f64-5b0f-8f00-5d77afbe261e}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AcquireExclusiveAccess    Method     void AcquireExclusiveAccess (bool, string)                     
+CloseTray                 Method     void CloseTray ()                                              
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+DisableMcn                Method     void DisableMcn ()                                             
+EjectMedia                Method     void EjectMedia ()                                             
+EnableMcn                 Method     void EnableMcn ()                                              
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeDiscRecorder    Method     void InitializeDiscRecorder (string)                           
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ReleaseExclusiveAccess    Method     void ReleaseExclusiveAccess ()                                 
+ToString                  Method     string ToString()                                              
+ActiveDiscRecorder        Property   string ActiveDiscRecorder () {get}                             
+CurrentFeaturePages       Property   SAFEARRAY(Variant) CurrentFeaturePages () {get}                
+CurrentProfiles           Property   SAFEARRAY(Variant) CurrentProfiles () {get}                    
+DeviceCanLoadMedia        Property   bool DeviceCanLoadMedia () {get}                               
+ExclusiveAccessOwner      Property   string ExclusiveAccessOwner () {get}                           
+LegacyDeviceNumber        Property   int LegacyDeviceNumber () {get}                                
+ProductId                 Property   string ProductId () {get}                                      
+ProductRevision           Property   string ProductRevision () {get}                                
+SupportedFeaturePages     Property   SAFEARRAY(Variant) SupportedFeaturePages () {get}              
+SupportedModePages        Property   SAFEARRAY(Variant) SupportedModePages () {get}                 
+SupportedProfiles         Property   SAFEARRAY(Variant) SupportedProfiles () {get}                  
+VendorId                  Property   string VendorId () {get}                                       
+VolumeName                Property   string VolumeName () {get}                                     
+VolumePathNames           Property   SAFEARRAY(Variant) VolumePathNames () {get}                    
+
+

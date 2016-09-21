@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{eb7d987f-8a01-42ad-b8ae-574deee44d1a}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+Clone                     Method     ITuneRequest Clone ()                                          
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Components                Property   IComponents Components () {get}                                
+Locator                   Property   ILocator Locator () {get} {set}                                
+ProgNo                    Property   int ProgNo () {get} {set}                                      
+TSID                      Property   int TSID () {get} {set}                                        
+TuningSpace               Property   ITuningSpace TuningSpace () {get}                              
+
+

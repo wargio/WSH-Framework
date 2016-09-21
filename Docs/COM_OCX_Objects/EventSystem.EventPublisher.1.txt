@@ -1,0 +1,24 @@
+
+
+   TypeName: System.__ComObject#{e341516b-2e32-11d1-9964-00c04fbbb345}
+
+Name                         MemberType Definition                                                     
+----                         ---------- ----------                                                     
+CreateObjRef                 Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                       Method     bool Equals(System.Object obj)                                 
+GetDefaultProperty           Method     Variant GetDefaultProperty (string)                            
+GetDefaultPropertyCollection Method     IEventObjectCollection GetDefaultPropertyCollection ()         
+GetHashCode                  Method     int GetHashCode()                                              
+GetLifetimeService           Method     System.Object GetLifetimeService()                             
+GetType                      Method     type GetType()                                                 
+InitializeLifetimeService    Method     System.Object InitializeLifetimeService()                      
+PutDefaultProperty           Method     void PutDefaultProperty (string, Variant)                      
+RemoveDefaultProperty        Method     void RemoveDefaultProperty (string)                            
+ToString                     Method     string ToString()                                              
+Description                  Property   string Description () {get} {set}                              
+OwnerSID                     Property   string OwnerSID () {get} {set}                                 
+PublisherID                  Property   string PublisherID () {get} {set}                              
+PublisherName                Property   string PublisherName () {get} {set}                            
+PublisherType                Property   string PublisherType () {get} {set}                            
+
+

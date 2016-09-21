@@ -1,0 +1,22 @@
+
+
+   TypeName: System.__ComObject#{0000061f-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+Clustered                 Property   bool Clustered () {get} {set}                                  
+Columns                   Property   Columns Columns () {get}                                       
+IndexNulls                Property   AllowNullsEnum IndexNulls () {get} {set}                       
+Name                      Property   string Name () {get} {set}                                     
+PrimaryKey                Property   bool PrimaryKey () {get} {set}                                 
+Properties                Property   Properties Properties () {get}                                 
+Unique                    Property   bool Unique () {get} {set}                                     
+
+

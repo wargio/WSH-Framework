@@ -1,0 +1,28 @@
+
+
+   TypeName: System.__ComObject#{c74a3adc-b727-4500-a84a-b526721c8b8c}
+
+Name                      MemberType Definition                                                                
+----                      ---------- ----------                                                                
+CreateInstance            Method     IUnknown CreateInstance (IUnknown, SpeechTokenContext)                    
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)           
+DisplayUI                 Method     void DisplayUI (int, string, string, Variant, IUnknown)                   
+Equals                    Method     bool Equals(System.Object obj)                                            
+GetAttribute              Method     string GetAttribute (string)                                              
+GetDescription            Method     string GetDescription (int)                                               
+GetHashCode               Method     int GetHashCode()                                                         
+GetLifetimeService        Method     System.Object GetLifetimeService()                                        
+GetStorageFileName        Method     string GetStorageFileName (string, string, string, SpeechTokenShellFolder)
+GetType                   Method     type GetType()                                                            
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                 
+IsUISupported             Method     bool IsUISupported (string, Variant, IUnknown)                            
+MatchesAttributes         Method     bool MatchesAttributes (string)                                           
+Remove                    Method     void Remove (string)                                                      
+RemoveStorageFileName     Method     void RemoveStorageFileName (string, string, bool)                         
+SetId                     Method     void SetId (string, string, bool)                                         
+ToString                  Method     string ToString()                                                         
+Category                  Property   ISpeechObjectTokenCategory Category () {get}                              
+DataKey                   Property   ISpeechDataKey DataKey () {get}                                           
+Id                        Property   string Id () {get}                                                        
+
+

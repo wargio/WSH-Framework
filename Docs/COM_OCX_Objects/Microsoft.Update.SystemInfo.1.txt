@@ -1,0 +1,17 @@
+
+
+   TypeName: System.__ComObject#{ade87bf7-7b56-4275-8fab-b9b0e591844b}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+ToString                  Method     string ToString()                                              
+OemHardwareSupportLink    Property   string OemHardwareSupportLink () {get}                         
+RebootRequired            Property   bool RebootRequired () {get}                                   
+
+

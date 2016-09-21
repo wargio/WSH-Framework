@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{a295019c-dc65-47dd-90dc-7fe918a1ab44}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+AddCallback               Method     void AddCallback (IUnknown)                                    
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+InvokeAction              Method     Variant InvokeAction (string, Variant, Variant)                
+QueryStateVariable        Method     Variant QueryStateVariable (string)                            
+ToString                  Method     string ToString()                                              
+Id                        Property   string Id () {get}                                             
+LastTransportStatus       Property   int LastTransportStatus () {get}                               
+ServiceTypeIdentifier     Property   string ServiceTypeIdentifier () {get}                          
+
+

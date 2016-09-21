@@ -1,0 +1,42 @@
+
+
+   TypeName: System.__ComObject#{2a0b9d10-4b87-11d3-a97a-00104b365c9f}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+BuildPath                 Method     string BuildPath (string, string)                              
+CopyFile                  Method     void CopyFile (string, string, bool)                           
+CopyFolder                Method     void CopyFolder (string, string, bool)                         
+CreateFolder              Method     IFolder CreateFolder (string)                                  
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+CreateTextFile            Method     ITextStream CreateTextFile (string, bool, bool)                
+DeleteFile                Method     void DeleteFile (string, bool)                                 
+DeleteFolder              Method     void DeleteFolder (string, bool)                               
+DriveExists               Method     bool DriveExists (string)                                      
+Equals                    Method     bool Equals(System.Object obj)                                 
+FileExists                Method     bool FileExists (string)                                       
+FolderExists              Method     bool FolderExists (string)                                     
+GetAbsolutePathName       Method     string GetAbsolutePathName (string)                            
+GetBaseName               Method     string GetBaseName (string)                                    
+GetDrive                  Method     IDrive GetDrive (string)                                       
+GetDriveName              Method     string GetDriveName (string)                                   
+GetExtensionName          Method     string GetExtensionName (string)                               
+GetFile                   Method     IFile GetFile (string)                                         
+GetFileName               Method     string GetFileName (string)                                    
+GetFileVersion            Method     string GetFileVersion (string)                                 
+GetFolder                 Method     IFolder GetFolder (string)                                     
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetParentFolderName       Method     string GetParentFolderName (string)                            
+GetSpecialFolder          Method     IFolder GetSpecialFolder (SpecialFolderConst)                  
+GetStandardStream         Method     ITextStream GetStandardStream (StandardStreamTypes, bool)      
+GetTempName               Method     string GetTempName ()                                          
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+MoveFile                  Method     void MoveFile (string, string)                                 
+MoveFolder                Method     void MoveFolder (string, string)                               
+OpenTextFile              Method     ITextStream OpenTextFile (string, IOMode, bool, Tristate)      
+ToString                  Method     string ToString()                                              
+Drives                    Property   IDriveCollection Drives () {get}                               
+
+

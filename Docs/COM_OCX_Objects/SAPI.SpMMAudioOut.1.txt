@@ -1,0 +1,29 @@
+
+
+   TypeName: System.__ComObject#{3c76af6d-1fd7-4831-81d1-3b71d5a13c44}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+Read                      Method     int Read (Variant, int)                                        
+Seek                      Method     Variant Seek (Variant, SpeechStreamSeekPositionType)           
+SetState                  Method     void SetState (SpeechAudioState)                               
+ToString                  Method     string ToString()                                              
+Write                     Method     int Write (Variant)                                            
+BufferInfo                Property   ISpeechAudioBufferInfo BufferInfo () {get}                     
+BufferNotifySize          Property   int BufferNotifySize () {get} {set}                            
+DefaultFormat             Property   ISpeechAudioFormat DefaultFormat () {get}                      
+DeviceId                  Property   int DeviceId () {get} {set}                                    
+EventHandle               Property   int EventHandle () {get}                                       
+Format                    Property   ISpeechAudioFormat Format () {get} {set by ref}                
+LineId                    Property   int LineId () {get} {set}                                      
+MMHandle                  Property   int MMHandle () {get}                                          
+Status                    Property   ISpeechAudioStatus Status () {get}                             
+Volume                    Property   int Volume () {get} {set}                                      
+
+

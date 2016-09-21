@@ -1,0 +1,21 @@
+
+
+   TypeName: System.__ComObject#{00000628-0000-0010-8000-00aa006d2ea4}
+
+Name                      MemberType Definition                                                                                     
+----                      ---------- ----------                                                                                     
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)                                
+Equals                    Method     bool Equals(System.Object obj)                                                                 
+GetHashCode               Method     int GetHashCode()                                                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                                                             
+GetPermissions            Method     RightsEnum GetPermissions (Variant, ObjectTypeEnum, Variant)                                   
+GetType                   Method     type GetType()                                                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                                                      
+SetPermissions            Method     void SetPermissions (Variant, ObjectTypeEnum, ActionEnum, RightsEnum, InheritTypeEnum, Variant)
+ToString                  Method     string ToString()                                                                              
+Name                      Property   string Name () {get} {set}                                                                     
+ParentCatalog             Property   _Catalog ParentCatalog () {get} {set} {set by ref}                                             
+Properties                Property   Properties Properties () {get}                                                                 
+Users                     Property   Users Users () {get}                                                                           
+
+

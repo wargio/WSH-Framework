@@ -1,0 +1,34 @@
+
+
+   TypeName: System.__ComObject#{37647bf7-3dde-4cc8-a4dc-0d534d3d0037}
+
+Name                      MemberType Definition                                                     
+----                      ---------- ----------                                                     
+ChannelAvailable          Method     bool ChannelAvailable (int, int)                               
+CreateObjRef              Method     System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Equals                    Method     bool Equals(System.Object obj)                                 
+GetHashCode               Method     int GetHashCode()                                              
+GetLifetimeService        Method     System.Object GetLifetimeService()                             
+GetType                   Method     type GetType()                                                 
+InitializeLifetimeService Method     System.Object InitializeLifetimeService()                      
+IsEqualDevice             Method     bool IsEqualDevice (IMSVidDevice)                              
+IsViewable                Method     bool IsViewable (Variant)                                      
+ToString                  Method     string ToString()                                              
+View                      Method     void View (Variant)                                            
+AudioFrequency            Property   int AudioFrequency () {get}                                    
+Category                  Property   string Category () {get}                                       
+Channel                   Property   int Channel () {get} {set}                                     
+ClassID                   Property   string ClassID () {get}                                        
+CountryCode               Property   int CountryCode () {get} {set}                                 
+Name                      Property   string Name () {get}                                           
+NumAuxInputs              Property   int NumAuxInputs () {get}                                      
+Power                     Property   bool Power () {get} {set}                                      
+SAP                       Property   bool SAP () {get} {set}                                        
+Status                    Property   int Status () {get}                                            
+Tune                      Property   ITuneRequest Tune () {get} {set}                               
+TunerModes                Property   int TunerModes () {get}                                        
+TuningSpace               Property   ITuningSpace TuningSpace () {get}                              
+TVFormats                 Property   int TVFormats () {get}                                         
+VideoFrequency            Property   int VideoFrequency () {get}                                    
+
+
