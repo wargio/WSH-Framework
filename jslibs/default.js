@@ -5,6 +5,9 @@ console = (function() {
         script: WScript.ScriptName,
         scriptpath: WScript.ScriptFullName,
         args: new Array(WScript.Arguments.length),
+        chdir: function(path) {
+            wsh.CurrentDirectory = path;
+        },
         log: function(a) {
             WScript.Echo(a);
         },

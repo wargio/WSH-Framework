@@ -27,6 +27,13 @@ File = (function() {
             return;
         return this.ctx.ReadLine();
     };
+    x.prototype.read = function(bytes) {
+        if (!this.ctx || this.flags != this.READ || this.ctx.AtEndOfStream)
+            return;
+        if (!bytes)
+            return this.ctx.readAll();
+        return this.ctx.read(bytes);
+    };
     x.prototype.write = function(towrite) {
         if (!this.ctx || (this.flags != this.WRITE && this.flags != this.APPEND))
             return;

@@ -117,6 +117,7 @@ WMI = (function() {
         this.PrinterSetting = [];
         this.PrinterShare = [];
         this.PrintJob = [];
+        this.Process = [];
         this.Processor = [];
         this.SCSIController = [];
         this.SCSIControllerDevice = [];
@@ -2822,7 +2823,7 @@ WMI = (function() {
                 PrinterConfiguration: function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterConfiguration", null, 48));
-                    e.moveFirst();                    
+                    e.moveFirst();
                     if (e.atEnd())
                         e = new Enumerator(service.InstancesOf("Win32_PrinterConfiguration"));
                     while (!e.atEnd()) {
@@ -3008,6 +3009,64 @@ WMI = (function() {
                         e.moveNext();
                     }
                     return array;
+                },
+                Process: function() {
+                    var array = [];
+                    var e = new Enumerator(service.ExecQuery("Select * from Win32_Process", null, 48));
+                    e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Process"));
+                    while (!e.atEnd()) {
+                        var o = e.item();
+                        array.push({
+                            caption: o.Caption,
+                            creationClassName: o.CreationClassName,
+                            creationDate: o.CreationDate,
+                            csCreationClassName: o.CSCreationClassName,
+                            csName: o.CSName,
+                            description: o.Description,
+                            executablePath: o.ExecutablePath,
+                            executionState: o.ExecutionState,
+                            handle: o.Handle,
+                            handleCount: o.HandleCount,
+                            installDate: o.InstallDate,
+                            kernelModeTime: o.KernelModeTime,
+                            maximumWorkingSetSize: o.MaximumWorkingSetSize,
+                            minimumWorkingSetSize: o.MinimumWorkingSetSize,
+                            name: o.Name,
+                            osCreationClassName: o.OSCreationClassName,
+                            osName: o.OSName,
+                            otherOperationCount: o.OtherOperationCount,
+                            otherTransferCount: o.OtherTransferCount,
+                            pageFaults: o.PageFaults,
+                            pageFileUsage: o.PageFileUsage,
+                            parentProcessId: o.ParentProcessId,
+                            peakPageFileUsage: o.PeakPageFileUsage,
+                            peakVirtualSize: o.PeakVirtualSize,
+                            peakWorkingSetSize: o.PeakWorkingSetSize,
+                            priority: o.Priority,
+                            privatePageCount: o.PrivatePageCount,
+                            processId: o.ProcessId,
+                            quotaNonPagedPoolUsage: o.QuotaNonPagedPoolUsage,
+                            quotaPagedPoolUsage: o.QuotaPagedPoolUsage,
+                            quotaPeakNonPagedPoolUsage: o.QuotaPeakNonPagedPoolUsage,
+                            quotaPeakPagedPoolUsage: o.QuotaPeakPagedPoolUsage,
+                            readOperationCount: o.ReadOperationCount,
+                            readTransferCount: o.ReadTransferCount,
+                            sessionId: o.SessionId,
+                            status: o.Status,
+                            terminationDate: o.TerminationDate,
+                            threadCount: o.ThreadCount,
+                            userModeTime: o.UserModeTime,
+                            virtualSize: o.VirtualSize,
+                            windowsVersion: o.WindowsVersion,
+                            workingSetSize: o.WorkingSetSize,
+                            writeOperationCount: o.WriteOperationCount,
+                            writeTransferCount: o.WriteTransferCount
+                        });
+                        e.moveNext();
+                        return array;
+                    }
                 },
                 Processor: function() {
                     var array = [];

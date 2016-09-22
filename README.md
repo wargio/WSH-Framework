@@ -17,7 +17,13 @@ cscript //Nologo crypto.js %1 %2 %3 %4 %5 %6 %8 %9
 
 to write a simple script file like that one, you just need to copy `Template.js` and use `console.require()` (like in the example) to load a component into your script.
 
-in the future i'd like to support multiple things and also provide a method to "compile" (i.e. to merge) a script to a unique one that will not require this setup with the environment table.
+## Framework Utility
+
+```
+    Composer.js                 | this tool will create a unique file from all the dependencies added into your script
+                                | in this way you won't need to use any environment value to call require.
+                                | usage: usage: cscript Composer.js [filename.js] [composed.filename.js]
+```
 
 ## Framework API
 
