@@ -141,11 +141,12 @@ WMI = (function() {
                         var max = 0,
                             pad = '                                         ';
                         for (var entry in who[i]) {
-                            if (max < entry.length)
+                            if (who[i][entry] && max < entry.length)
                                 max = entry.length;
                         }
                         for (var entry in who[i]) {
-                            console.log("    " + entry + ": " + pad.substr(0, max - entry.length) + who[i][entry]);
+                            if (who[i][entry])
+                                console.log("    " + entry + ": " + pad.substr(0, max - entry.length) + who[i][entry]);
                         }
                     }
                     console.log(" ");
@@ -166,6 +167,8 @@ WMI = (function() {
                 var array = [];
                 var e = new Enumerator(service.ExecQuery("Select * from Win32_PnPDeviceProperty" + type, null, 48));
                 e.moveFirst();
+                if (e.atEnd())
+                    e = new Enumerator(service.InstancesOf("Win32_PnPDeviceProperty" + type));
                 while (!e.atEnd()) {
                     var o = e.item();
                     array.push({
@@ -184,6 +187,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_1394Controller", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_1394Controller"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -219,6 +224,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_1394ControllerDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_1394ControllerDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -238,6 +245,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Fan", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Fan"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -255,6 +264,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_HeatPipe", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_HeatPipe"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -287,6 +298,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Refrigeration", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Refrigeration"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -319,6 +332,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_TemperatureProbe", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_TemperatureProbe"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -366,6 +381,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_AssociatedProcessorMemory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_AssociatedProcessorMemory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -381,6 +398,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_AutochkSetting", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_AutochkSetting"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -397,6 +416,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_BaseBoard", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_BaseBoard"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -438,6 +459,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Battery", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Battery"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -483,6 +506,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_BIOS", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_BIOS"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -521,6 +546,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Bus", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Bus"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -554,6 +581,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_CacheMemory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_CacheMemory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -619,6 +648,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_CDROMDrive", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_CDROMDrive"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -678,6 +709,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_CIMLogicalDeviceCIMDataFile", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_CIMLogicalDeviceCIMDataFile"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -694,6 +727,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_ComputerSystemProcessor", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_ComputerSystemProcessor"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -708,6 +743,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_CurrentProbe", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_CurrentProbe"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -755,6 +792,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DesktopMonitor", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DesktopMonitor"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -795,6 +834,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DeviceBus", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DeviceBus"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -809,6 +850,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DeviceChangeEvent", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DeviceChangeEvent"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -824,6 +867,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DeviceMemoryAddress", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DeviceMemoryAddress"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -847,6 +892,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DeviceSettings", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DeviceSettings"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -861,6 +908,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DiskDrive", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DiskDrive"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -921,6 +970,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DiskDriveToDiskPartition", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DiskDriveToDiskPartition"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -935,6 +986,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DiskPartition", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DiskPartition"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -981,6 +1034,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DisplayControllerConfiguration", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DisplayControllerConfiguration"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1007,6 +1062,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DMAChannel", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DMAChannel"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1038,6 +1095,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_DriverForDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_DriverForDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1052,6 +1111,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_FloppyController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_FloppyController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1087,6 +1148,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_FloppyDrive", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_FloppyDrive"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1122,6 +1185,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_IDEController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_IDEController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1157,6 +1222,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_IDEControllerDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_IDEControllerDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1176,6 +1243,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_InfraredDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_InfraredDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1211,6 +1280,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_IRQResource", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_IRQResource"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1238,6 +1309,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Keyboard", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Keyboard"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1273,6 +1346,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalDisk", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalDisk"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1320,6 +1395,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalDiskRootDirectory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalDiskRootDirectory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1334,6 +1411,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalDiskToPartition", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalDiskToPartition"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1350,6 +1429,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalProgramGroup", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalProgramGroup"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1369,6 +1450,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalProgramGroupDirectory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalProgramGroupDirectory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1383,6 +1466,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalProgramGroupItem", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalProgramGroupItem"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1400,6 +1485,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_LogicalProgramGroupItemDataFile", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_LogicalProgramGroupItemDataFile"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1414,6 +1501,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MappedLogicalDisk", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MappedLogicalDisk"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1464,6 +1553,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MemoryArray", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MemoryArray"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1515,6 +1606,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MemoryArrayLocation", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MemoryArrayLocation"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1529,6 +1622,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MemoryDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MemoryDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1580,6 +1675,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MemoryDeviceArray", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MemoryDeviceArray"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1594,6 +1691,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MemoryDeviceLocation", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MemoryDeviceLocation"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1608,6 +1707,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_MotherboardDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_MotherboardDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1642,6 +1743,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkAdapter", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkAdapter"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1687,6 +1790,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkAdapterConfiguration", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkAdapterConfiguration"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1759,6 +1864,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkAdapterSetting", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkAdapterSetting"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1773,6 +1880,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkClient", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkClient"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1791,6 +1900,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkConnection", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkConnection"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1820,6 +1931,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkLoginProfile", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkLoginProfile"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1864,6 +1977,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NetworkProtocol", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NetworkProtocol"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1899,6 +2014,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_NTLogEvent", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_NTLogEvent"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1927,6 +2044,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_OnBoardDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_OnBoardDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -1959,6 +2078,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_OperatingSystem", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_OperatingSystem"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2023,6 +2144,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_ParallelPort", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_ParallelPort"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2061,6 +2184,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PCMCIAController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PCMCIAController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2096,6 +2221,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PhysicalMemory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PhysicalMemory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2138,6 +2265,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PhysicalMemoryArray", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PhysicalMemoryArray"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2177,6 +2306,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PhysicalMemoryLocation", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PhysicalMemoryLocation"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2191,6 +2322,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PnPAllocatedResource", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PnPAllocatedResource"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2205,6 +2338,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PnPDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PnPDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2219,6 +2354,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PnPDeviceProperty", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PnPDeviceProperty"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2319,6 +2456,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PnPEntity", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PnPEntity"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2353,6 +2492,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PointingDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PointingDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2398,6 +2539,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PortableBattery", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PortableBattery"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2448,6 +2591,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PortConnector", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PortConnector"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2480,6 +2625,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PortResource", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PortResource"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2503,6 +2650,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_POTSModem", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_POTSModem"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2594,6 +2743,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_POTSModemToSerialPort", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_POTSModemToSerialPort"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2613,6 +2764,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Printer", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Printer"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2669,7 +2822,9 @@ WMI = (function() {
                 PrinterConfiguration: function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterConfiguration", null, 48));
-                    e.moveFirst();
+                    e.moveFirst();                    
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterConfiguration"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2715,6 +2870,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2734,6 +2891,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterDriver", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterDriver"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2768,6 +2927,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterDriverDll", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterDriverDll"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2782,6 +2943,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterSetting", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterSetting"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2796,6 +2959,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrinterShare", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrinterShare"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2810,6 +2975,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_PrintJob", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_PrintJob"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2846,6 +3013,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_Processor", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_Processor"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2902,6 +3071,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SCSIController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SCSIController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2945,6 +3116,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SCSIControllerDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SCSIControllerDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -2964,6 +3137,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SerialPort", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SerialPort"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3023,6 +3198,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SerialPortConfiguration", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SerialPortConfiguration"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3064,6 +3241,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SerialPortSetting", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SerialPortSetting"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3078,6 +3257,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SMBIOSMemory", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SMBIOSMemory"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3128,6 +3309,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_SoundDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_SoundDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3163,6 +3346,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_TapeDrive", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_TapeDrive"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3215,6 +3400,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_TCPIPPrinterPort", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_TCPIPPrinterPort"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3244,6 +3431,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_USBController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_USBController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3279,6 +3468,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_USBControllerDevice", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_USBControllerDevice"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3298,6 +3489,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_VideoController", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_VideoController"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3369,6 +3562,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_VideoSettings", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_VideoSettings"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({
@@ -3383,6 +3578,8 @@ WMI = (function() {
                     var array = [];
                     var e = new Enumerator(service.ExecQuery("Select * from Win32_VoltageProbe", null, 48));
                     e.moveFirst();
+                    if (e.atEnd())
+                        e = new Enumerator(service.InstancesOf("Win32_VoltageProbe"));
                     while (!e.atEnd()) {
                         var o = e.item();
                         array.push({

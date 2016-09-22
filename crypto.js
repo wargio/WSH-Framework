@@ -12,6 +12,9 @@ if (typeof Binary == 'undefined')
 if (typeof aesjs == 'undefined')
     console.require('AES.js');
 
+if (typeof Options == 'undefined')
+    console.require('Options.js');
+
 String.prototype.toArray = function() {
     var result = [];
     for (var i = 0; i < this.length; i++) {
@@ -125,20 +128,5 @@ var opts = {
     }
 }
 
-var usage = function() {
-    console.log("   Usage: cscript cipher.js [option] [[args]]");
-    for (var option in opts) {
-        if (option.length == 2)
-            console.log(opts[option].usage);
-    }
-    console.exit();
-}
-
-////// MAIN 
-if (console.args.length > 1 && opts[console.args[0]]) {
-    if (opts[console.args[0]].args == console.args.length - 1)
-        opts[console.args[0]].exec();
-    else
-        usage();
-} else
-    usage();
+var options = new Options(opts);
+options.main();

@@ -2,7 +2,8 @@ console = (function() {
     var wsh = new ActiveXObject("WScript.Shell");
     var t = {
         pwd: wsh.CurrentDirectory,
-        script: WScript.ScriptFullName,
+        script: WScript.ScriptName,
+        scriptpath: WScript.ScriptFullName,
         args: new Array(WScript.Arguments.length),
         log: function(a) {
             WScript.Echo(a);
