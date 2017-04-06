@@ -10,9 +10,12 @@
     eval(d);
     f = s = d = null;
 })();
-
-console.require('File.js');
-console.require('FileSystem.js');
+if (typeof ECMA5 == 'undefined')
+    console.require('ECMA5.js', true);
+if (typeof File == 'undefined')
+    console.require('File.js', true);
+if (typeof FileSystem == 'undefined')
+    console.require('FileSystem.js', true);
 
 var Composer = function(filename, ofilename) {
     var ______logger = console.log;
@@ -20,75 +23,78 @@ var Composer = function(filename, ofilename) {
     var ______File = File;
     var ______FS = FileSystem;
     var ______pwd = console.pwd;
+    var ______list = [];
+    var ______Composer = Composer;
     ______FS.mkdir(console.pwd + "\\composer_tmp");
     console.chdir(console.pwd + "\\composer_tmp");
-    this.list = (function(rootfilename) {
-        var list = [];
-        ______logger("Building fake environment");
-        var File = undefined;
-        var FileSystem = undefined;
-        var filename = undefined;
-        var ofilename = undefined;
-        var console = {
-            pwd: ______console.pwd,
-            script: ______console.script,
-            scriptpath: ______console.scriptpath,
-            args: [],
-            chdir: ______console.chdir,
-            print: function(a) {},
-            close: function() {},
-            exit: function() {
-
-            },
-            stdin: ______console.stdin,
-            stdinEOF: function() {
-                return true;
-            },
-            stdout: ______console.stdout,
-            readline: function() {
-                return null;
-            },
-            require: function(filename) {
-                var wsh = new ActiveXObject("WScript.Shell");
-                var jslib = wsh.ExpandEnvironmentStrings('%JSLIB%');
-                var f = new ActiveXObject("Scripting.FileSystemObject");
-                if (f.FileExists(filename)) {
-                    list.push(filename);
-                } else if (f.FileExists(jslib + '\\' + filename)) {
-                    list.push(jslib + '\\' + filename);
-                    filename = jslib + '\\' + filename;
+    (function(rootfilename) {
+        requirescr = function(filename, standard) {
+            if (typeof filename == 'undefined') throw new Error("Invalid require parameter (" + filename + ")")
+            var wsh = new ActiveXObject("WScript.Shell");
+            var jslib = wsh.ExpandEnvironmentStrings('%JSLIB%') + '\\';
+            if (jslib == "%JSLIB%\\") throw new Error("Missing environment variable JSLIB.");
+            var f = new ActiveXObject("Scripting.FileSystemObject");
+            if (standard) {
+                filename = jslib + filename;
+            } else if (f.FileExists(jslib + filename)) {
+                filename = jslib + filename;
+            } else if (filename.indexOf(______pwd) < 0) {
+                filename = ______pwd + '\\' + filename;
+            }
+            if (f.FileExists(filename)) {
+                var fullpath = f.GetFile(filename).Path;
+                ______logger("Adding: " + fullpath);
+                if (______list.indexOf(fullpath) < 0) {
+                    ______list.push(fullpath);
                 } else {
-                    throw new Error('Missing file \'' + filename + '\'.');
+                    return;
                 }
-                ______logger("Added: " + filename);
-                f = null;
-                var ______fp = new ______File(filename, ______File.READ);
-                var ______buf = ______fp.read().replace(/\(function\(\)\s*\{\s*var\s*a\s*=\s*ActiveXObject[\s\S]*\}\)\(\);/, '');
-                ______fp.close();
-                ______fp = null;
-                eval(______buf);
-            },
-            log: function(x) {},
-            args: []
+            } else {
+                ______logger('Missing file \'' + filename + '\'.');
+                ______console.close();
+            }
+            f = null;
+            var ______fp = new ______File(fullpath, ______File.READ);
+            var ______buf = ______fp.read().match(/\bconsole\b.require\(.+\)/g);
+            ______fp.close();
+            ______fp = null;
+            if (!______buf) return;
+            for (var i = 0; i < ______buf.length; i++) {
+                ______buf[i] = ______buf[i].match(/\w+\.js|true/g)
+                requirescr(______buf[i][0], ______buf[i][1]);
+            }
         };
-        ______logger("Finding required files.");
-        console.require(rootfilename);
-        ______logger("Adding default.js");
-        console.require('default.js');
-        return list;
+        try {
+            requirescr(rootfilename);
+            requirescr('default.js', true);
+        } catch (e) {
+            console.log("Name:        " + e.name)
+            console.log("Number:      " + e.number)
+            console.log("Message:     " + e.message)
+            console.log("Description: " + e.description)
+            console.exit(1);
+        }
     })(filename);
+    this.list = ______list;
+    if (!ofilename.match(/\w:\\/)) ofilename = console.pwd + "\\" + ofilename;
     console.log("\nBuilding " + ofilename)
     var fpo = new File(ofilename, File.WRITE);
+    var now = (new Date).toISOString();
+    fpo.write("//[Composer] filename: " + ofilename + "\n");
+    fpo.write("//[Composer] Build Date: " + now + "\n");
+    fpo.write("var __BUILD_DATE__ = \"" + now + "\";\n");
     for (var i = this.list.length - 1; i >= 0; i--) {
         console.log(this.list[i]);
         var fp = new File(this.list[i], File.READ);
         var buf = fp.read().replace(/\(function\(\)\s*\{\s*var\s*a\s*=\s*ActiveXObject[\s\S]*\}\)\(\);/, '');
         fp.close();
         fp = null;
-        buf = buf.replace(/if\s*\(typeof\s[A-Za-z0-9]*.*\)\s*throw\s*new\s*Error\(.*\);/, '');
-        buf = buf.replace(/if\s*\(typeof\s[A-Za-z0-9]*.*\)\s*console\.require\(.*\);/g, '');
+        buf = buf.replace(/if\s+\(typeof\s[A-Za-z0-9]*.*\)\s+throw\s+new\s+Error\(.*\);/, '');
+        //buf = buf.replace(/if\s+\(.+\)\s+console\.require\(.+\);/g, '');
+        buf = buf.replace(/require:\s+function[\(\s\w,\)\{=;\.\'\"%!&\}\+\\]+}[,]/, 'require:function(){},');
         fpo.write(buf + '\n');
     }
+    fpo.write("//[Composer] END\n");
     fpo.close();
     console.log("\nFile written " + ofilename);
     console.chdir(______pwd);

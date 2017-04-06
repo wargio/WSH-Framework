@@ -1,0 +1,24 @@
+IFolderObject Object Properties and Methods
+
+
+Description:
+     IFolderObject allows folder attributes to be obtained and set.
+
+
+Properties:
+    IFolderObject.Attributes
+    IFolderObject.DateCreated
+    IFolderObject.DateLastAccessed
+    IFolderObject.DateLastModified
+    IFolderObject.Files
+    IFolderObject.Name
+    IFolderObject.ParentFolder
+    IFolderObject.Path
+    IFolderObject.Size
+    IFolderObject.Size64
+    IFolderObject.SubFolders
+
+Methods:
+    IFolderObject.Rescan
+    IFolderObject.SetStat
+    IFolderObject.Stat

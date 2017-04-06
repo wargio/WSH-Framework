@@ -1,0 +1,23 @@
+ITextStream Object Properties and Methods
+
+
+Description:
+     The ITextStream object allows a text stream to be read or written.
+
+
+Properties:
+    ITextStream.AtEndOfLine
+    ITextStream.AtEndOfStream
+    ITextStream.Column
+    ITextStream.Line
+
+Methods:
+    ITextStream.Close
+    ITextStream.Read
+    ITextStream.ReadAll
+    ITextStream.ReadLine
+    ITextStream.Skip
+    ITextStream.SkipLine
+    ITextStream.Write
+    ITextStream.WriteBlankLines
+    ITextStream.WriteLine

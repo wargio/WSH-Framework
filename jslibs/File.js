@@ -12,6 +12,7 @@ File = (function() {
             this.ctx = f.CreateTextFile(this.filename, this.flags);
         if (!this.ctx)
             throw new Error('Cannot open ' + fname);
+        this.position = 0;
     };
     x.READ = 1;
     x.WRITE = 2;
@@ -25,14 +26,20 @@ File = (function() {
     x.prototype.readline = function() {
         if (!this.ctx || this.flags != this.READ || this.ctx.AtEndOfStream)
             return;
-        return this.ctx.ReadLine();
+        var ret = this.ctx.ReadLine();
+        this.position += ret ? ret.length : 0;
+        return ret;
     };
     x.prototype.read = function(bytes) {
         if (!this.ctx || this.flags != this.READ || this.ctx.AtEndOfStream)
             return;
+        var ret = '';
         if (!bytes)
-            return this.ctx.readAll();
-        return this.ctx.read(bytes);
+            ret = this.ctx.readAll();
+        else
+            ret = this.ctx.read(bytes);
+        this.position += ret ? ret.length : 0;
+        return ret;
     };
     x.prototype.write = function(towrite) {
         if (!this.ctx || (this.flags != this.WRITE && this.flags != this.APPEND))
@@ -41,6 +48,16 @@ File = (function() {
     };
     x.prototype.isEOF = function() {
         return this.ctx.AtEndOfStream;
+    };
+    x.prototype.seek = function(position) {
+        if (position >= 0)
+            this.ctx.Position = position;
+    };
+    x.prototype.tell = function() {
+        return this.position >>> 0;
+    };
+    x.prototype.size = function() {
+        return 0;
     };
     return x;
 })();

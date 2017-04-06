@@ -4,27 +4,13 @@ if (typeof Binary == 'undefined')
     console.require('Binary.js');
 if (typeof SRecord == 'undefined')
     console.require('SRecord.js');
-if (typeof ASN1 == 'undefined')
-    console.require('ASN1.js');
-if (typeof Utils == 'undefined')
-    console.require('Utils.js');
+if (typeof ECMA5 == 'undefined')
+    console.require('ECMA5.js');
+if (typeof Buffer == 'undefined')
+    console.require('Buffer.js');
+if (typeof Types == 'undefined')
+    console.require('Types.js');
 
-String.prototype.trim = function() {
-    var x = '';
-    var i = 0,
-        v = 0;
-    for (i = 0, v = this.charCodeAt(i); i < this.length; i++, v = this.charCodeAt(i)) {
-        if (v > 31 && v < 127)
-            break;
-    }
-    x = this.substring(i, this.length);
-    for (i = this.length - 1, v = this.charCodeAt(i); i >= 0; i--) {
-        v = this.charCodeAt(i);
-        if (v > 31 && v < 127)
-            break;
-    }
-    return x.substring(0, i + 1);
-};
 
 ROM0 = (function() {
     var romcreate = function(filename, memory, entry, alignment) {
@@ -127,31 +113,34 @@ ROM0 = (function() {
         fp.close();
     }
 
+    var RomStruct = function(binary, size) {
+        this.magic = binary.next(4);
+        this.n_sectors = Types.uint32_t(binary);
+        this.entry = Types.uint32_t(binary);
+        this.alignment = Types.uint32_t(binary);
+        this.tocoff = Types.uint32_t(binary);
+        this.tocsize = Types.uint32_t(binary);
+        this.dataoff = Types.uint32_t(binary);
+        this.datasize = Types.uint32_t(binary);
+        this.print = function() {
+            console.log('ROM0 Data');
+            console.log('  Magic      : ' + this.magic);
+            console.log('  Sectors cnt: ' + this.n_sectors);
+            console.log('  Entry point: ' + this.entry.toString(16));
+            console.log('  Alignment  : ' + this.alignment);
+            console.log('  TOC offset : ' + this.tocoff.toString(16));
+            console.log('  TOC size   : ' + this.tocsize.toString(16));
+            console.log('  Data offset: ' + this.dataoff.toString(16));
+            console.log('  Data size  : ' + this.datasize.toString(16));
+        }
+    };
     var romdump = function(filename) {
         var bfp = new Binary(filename, Binary.READ);
-        var bin = bfp.read();
-        var body = {};
-        body.bin = bin;
-        body.magic = Utils.memcpy(bin, 0, 4);
-        body.n_sectors = Utils.toU32(Utils.memcpy(bin, 4, 4));
-        body.entry = Utils.toU32(Utils.memcpy(bin, 8, 4));
-        body.alignment = Utils.toU32(Utils.memcpy(bin, 12, 4));
-        body.tocoff = Utils.toU32(Utils.memcpy(bin, 16, 4));
-        body.tocsize = Utils.toU32(Utils.memcpy(bin, 20, 4));
-        body.dataoff = Utils.toU32(Utils.memcpy(bin, 24, 4));
-        body.datasize = Utils.toU32(Utils.memcpy(bin, 28, 4));
-
-        console.log('Rom Header');
-        console.log('  Magic      : ' + body.magic);
-        console.log('  Sectors cnt: ' + body.n_sectors);
-        console.log('  Entry point: ' + body.entry.toString(16));
-        console.log('  Alignment  : ' + body.alignment);
-        console.log('  TOC offset : ' + body.tocoff.toString(16));
-        console.log('  TOC size   : ' + body.tocsize.toString(16));
-        console.log('  Data offset: ' + body.dataoff.toString(16));
-        console.log('  Data size  : ' + body.datasize.toString(16));
-        bfp.close();
-        return body;
+        var binary = new Buffer(bfp); //.read());
+        var rom = new RomStruct(binary);
+        //bfp.close();
+        rom.binary = binary;
+        return rom;
     };
     return {
         create: function(filename, srecord) {

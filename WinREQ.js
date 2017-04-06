@@ -15,36 +15,41 @@ if (typeof WMI == 'undefined')
 if (typeof Options == 'undefined')
     console.require('Options.js');
 
-var options = new Options({
-    '-a': {
+var opts = {
+    '--all': {
         args: 0,
+        short: '-a',
         exec: function(args) {
             var wmi = new WMI();
             wmi.load("All");
             wmi.print();
         },
-        usage: "     -a               | Shows everything."
+        usage: "               | Shows everything."
     },
-    '-h': {
+    '--objects': {
         args: 0,
+        short: '-o',
         exec: function(args) {
             var wmi = new WMI();
-            console.log("Available values:")
+            console.log("Available objects:")
             for (var elem in wmi) {
                 if (typeof wmi[elem] == 'object')
                     console.log("   " + elem);
             }
         },
-        usage: "     -h               | Help page."
+        usage: "               | Shows all the possible objects."
     },
-    '-l': {
+    '--list': {
         args: 1,
+        short: '-l',
         exec: function(args) {
             var wmi = new WMI();
             wmi.load(args[1].replace("Win32_", ""));
             wmi.print();
         },
-        usage: "     -l [value]       | Help page."
+        usage: "[value]        | shows a specific object."
     }
-}, "Use -h for the help page to know which value to input.");
+};
+
+var options = new Options(opts, "Use -h for the help page to know which value to input.");
 options.main();

@@ -278,7 +278,17 @@ Binary = (function() {
         if (this.flags == this.READ) {
             this.context.LoadFromFile(this.path);
         }
-        this.close = function(argument) {
+        this.seek = function(position) {
+            if (position >= 0)
+                this.context.Position = position;
+        };
+        this.tell = function() {
+            return this.context.Position >>> 0;
+        };
+        this.size = function() {
+            return this.context.Size;
+        };
+        this.close = function() {
             if (this.flags != this.READ)
                 this.context.SaveToFile(this.path, adSaveCreateOverWrite);
             this.context.Close();

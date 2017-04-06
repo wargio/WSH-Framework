@@ -28,20 +28,30 @@ to write a simple script file like that one, you just need to copy `Template.js`
 ## Framework API
 
 ```
-    jslibs/default.js           | will give you the minimal required functions to load any api (console[something])
-    jslibs/AES.js               | this is the AES implementation for Javascript
-    jslibs/ASN1.js              | this is the ASN1 compiler/decompiler
-    jslibs/Binary.js            | this object will allow you to read and write binary files 
+    jslibs/default.js           | will give you the minimal required functions to load any api (console[something]).
+    jslibs/AES.js               | this is the AES implementation for Javascript.
+    jslibs/ASN1.js              | this is the ASN1 decompiler.
+    jslibs/Base64.js            | this is the Base64 encoder/decoder implementation for Javascript.
+    jslibs/Binary.js            | this object will allow you to read and write binary files.
+    jslibs/Buffer.js            | this is a helper structure to be used with Binary.
+    jslibs/ECMA5.js             | ECMA 5 missing implementation on MS JScript (not complete)
     jslibs/File.js              | is just simple object that allows to read and write text files.
-    jslibs/FileSystem.js        | this is a set of useful functions to work with the filesystem
+    jslibs/FileSystem.js        | this is a set of useful functions to work with the filesystem.
+    jslibs/Helpers.js           | some helpers to dump values like toHex for string, etc.
+    jslibs/HTTPRequest.js       | allows to do XHR requests (also via proxy or broken SSL).
     jslibs/Int10.js             | on WSH the Int10 object is missing. this will allow you to use it.
     jslibs/JSON.js              | on WSH the JSON object is missing. this will allow you to use it.
     jslibs/Options.js           | this object parse the command line input to the given option filter end execute it.
-    jslibs/ROM0.js              | this will allow you to convert the Motorola SRecord to readable binary file via hexdump
+    jslibs/ROM0.js              | this will allow you to convert the Motorola SRecord to readable binary file via hexdump.
     jslibs/SHA1.js              | just the SHA1 algo. it will take a string as an input value and return the digest as a string too.
-    jslibs/SRecord.js           | this is just a Motorola SRecord parser for javascript
-    jslibs/Utils.js             | just a set of utils like the string to u32 converter
-    jslibs/WMI.js               | this will allow you to talk with the Windows Management Instrumentation
+    jslibs/SHA224.js            | just the SHA224 algo. it will take a string as an input value and return the digest as a string too.
+    jslibs/SHA256.js            | just the SHA256 algo. it will take a string as an input value and return the digest as a string too.
+    jslibs/SRecord.js           | this is just a Motorola SRecord parser for javascript.
+    jslibs/Types.js             | converts a buffer to a [u]int[8,16,32,64]_t value ([u]int64_t values are arrays due platform limitation).
+    jslibs/TypesLE.js           | converts a buffer to a [u]int[8,16,32,64]_t value ([u]int64_t values are arrays due platform limitation).
+    jslibs/UI.js                | an object to create a simple visible UI via script.
+    jslibs/WMI.js               | this will allow you to talk with the Windows Management Instrumentation.
+
 ```
 
 ## TODO
@@ -51,19 +61,28 @@ I'm open to suggestions. If you know what should be improved, then tell me.
 ### Missing docs
 
 ```
+    jslibs/default.js           | Missing refs/documentation
     jslibs/AES.js               | Missing refs/documentation
     jslibs/ASN1.js              | Missing refs/documentation
+    jslibs/Base64.js            | Missing refs/documentation
     jslibs/Binary.js            | Missing refs/documentation
-    jslibs/default.js           | Missing refs/documentation
+    jslibs/Buffer.js            | Missing refs/documentation
+    jslibs/ECMA5.js             | Missing refs/documentation
     jslibs/File.js              | Missing refs/documentation
     jslibs/FileSystem.js        | Missing refs/documentation
+    jslibs/Helpers.js           | Missing refs/documentation
+    jslibs/HTTPRequest.js       | Missing refs/documentation
     jslibs/Int10.js             | Missing refs/documentation
     jslibs/JSON.js              | Missing refs/documentation
     jslibs/Options.js           | Missing refs/documentation
     jslibs/ROM0.js              | Missing refs/documentation
     jslibs/SHA1.js              | Missing refs/documentation
+    jslibs/SHA224.js            | Missing refs/documentation
+    jslibs/SHA256.js            | Missing refs/documentation
     jslibs/SRecord.js           | Missing refs/documentation
-    jslibs/Utils.js             | Missing refs/documentation
+    jslibs/Types.js             | Missing refs/documentation
+    jslibs/TypesLE.js           | Missing refs/documentation
+    jslibs/UI.js                | Missing refs/documentation
     jslibs/WMI.js               | Missing refs/documentation
 ```
 
@@ -73,8 +92,5 @@ I'm open to suggestions. If you know what should be improved, then tell me.
    jslib/PRNG.js                | this will be the future object to generate "secure" random number.
                                 | #Comments: Entropy on JScript is really bad.. i really don't know where to find it
                                 | #Comments: Maybe i should open a browser view at fullscreen to catch some entropy from the pointer.
-   jslib/UI.js                  | this will be the future object to create a simple visible UI via script. 
-                                | #Comments: Dummy POC is ready.. and it's bad..
-   jslib/NetSocket.js           | this will be the future object to create a TCP/UDP socket via script. 
-                                | #Comments: Winsocks? Maybe a custom posix-like OCX is better? i don't know.
+                                | #Comments: This is implemented, but the entropy is really bad. Need really good fixes for this.
 ```

@@ -4,7 +4,7 @@ if (typeof Int10 == 'undefined')
     console.require('Int10.js');
 
 ASN1 = (function() {
-    var ellipsis = "\u2026",
+    var ellipsis = "...",
         reTimeS = /^(\d\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])([01]\d|2[0-3])(?:([0-5]\d)(?:([0-5]\d)(?:[.,](\d{1,3}))?)?)?(Z|[-+](?:[0]\d|1[0-2])([0-5]\d)?)?$/,
         reTimeL = /^(\d\d\d\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])([01]\d|2[0-3])(?:([0-5]\d)(?:([0-5]\d)(?:[.,](\d{1,3}))?)?)?(Z|[-+](?:[0]\d|1[0-2])([0-5]\d)?)?$/;
 
@@ -120,7 +120,7 @@ ASN1 = (function() {
         }
         return s;
     };
-    Stream.prototype.parseInteger = function(start, end) {
+    Stream.prototype.parseInteger = function(start, end, maxLength) {
         var v = this.get(start),
             neg = (v > 127),
             pad = neg ? 255 : 0,
@@ -134,6 +134,7 @@ ASN1 = (function() {
             return neg ? -1 : 0;
         // show bit length of huge integers
         if (len > 4) {
+            return this.parseOctetString(start, end, maxLength);
             s = v;
             len <<= 3;
             while (((s ^ pad) & 0x80) == 0) {
@@ -152,13 +153,16 @@ ASN1 = (function() {
     Stream.prototype.parseBitString = function(start, end, maxLength) {
         var unusedBit = this.get(start),
             lenBit = ((end - start - 1) << 3) - unusedBit,
-            intro = "(" + lenBit + " bit)\n",
+            intro = "(" + lenBit + " bit) ",
             s = "";
+        if (lenBit > 32) {
+            return this.parseOctetString(start + 1, end, maxLength);
+        }
         for (var i = start + 1; i < end; ++i) {
             var b = this.get(i),
                 skip = (i == end - 1) ? unusedBit : 0;
             for (var j = 7; j >= skip; --j)
-                s += (b >> j) & 1 ? "1" : "0";
+                s = ((b >> j) & 1 ? "1" : "0") + s;
             if (s.length > maxLength)
                 return intro + stringCut(s, maxLength);
         }
@@ -172,8 +176,9 @@ ASN1 = (function() {
         maxLength /= 2; // we work in bytes
         if (len > maxLength)
             end = start + maxLength;
-        for (var i = start; i < end; ++i)
-            s += this.hexByte(this.get(i));
+        for (var i = start; i < end; ++i) {
+            s += this.hexByte(this.get(i))
+        }
         if (len > maxLength)
             s += ellipsis;
         return s + " (" + len + " byte)";
@@ -296,7 +301,7 @@ ASN1 = (function() {
             case 0x01: // BOOLEAN
                 return (this.stream.get(content) === 0) ? "false" : "true";
             case 0x02: // INTEGER
-                return this.stream.parseInteger(content, content + len);
+                return this.stream.parseInteger(content, content + len, maxLength);
             case 0x03: // BIT_STRING
                 return this.sub ? "(" + this.sub.length + " elem)" :
                     this.stream.parseBitString(content, content + len, maxLength);
@@ -405,10 +410,11 @@ ASN1 = (function() {
     ASN1Tag.prototype.isEOC = function() {
         return this.tagClass === 0x00 && this.tagNumber === 0x00;
     };
+    ASN1.Stream = Stream;
     ASN1.decode = function(stream) {
-        if (!(stream instanceof Stream))
-            stream = new Stream(stream, 0);
-        var streamStart = new Stream(stream),
+        if (!(stream instanceof ASN1.Stream))
+            stream = new ASN1.Stream(stream, 0);
+        var streamStart = new ASN1.Stream(stream),
             tag = new ASN1Tag(stream),
             len = ASN1.decodeLength(stream),
             start = stream.pos,

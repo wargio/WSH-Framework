@@ -17,59 +17,92 @@ FileSystem = (function() {
         if (filename == undefined)
             throw new Error('Bad argument');
         return f.FileExists(filename) || f.FolderExists(filename);
-    }
+    };
     fs.direxists = function(filename) {
         if (filename == undefined)
             throw new Error('Bad argument');
         return f.FolderExists(filename);
-    }
+    };
     fs.rm = function(filename) {
         if (filename == undefined)
             throw new Error('Bad argument');
         if (f.FileExists(filename))
             f.DeleteFile(filename);
-    }
+    };
     fs.mkdir = function(filename) {
         if (filename == undefined)
             throw new Error('Bad argument');
         if (!f.FolderExists(filename))
             f.CreateFolder(filename);
-    }
+    };
     fs.rmdir = function(filename) {
         if (filename == undefined)
             throw new Error('Bad argument');
-        if (!f.FolderExists(filename))
+        if (f.FolderExists(filename))
             f.DeleteFolder(filename);
-    }
+    };
     fs.cp = function(source, destination) {
         if (source == undefined || destination == undefined)
             throw new Error('Bad argument');
         if (f.FileExists(source))
             f.CopyFile(source, destination, false);
-    }
+    };
     fs.cpdir = function(source, destination) {
         if (source == undefined || destination == undefined)
             throw new Error('Bad argument');
         if (f.FolderExists(source))
             f.CopyFolder(source, destination, false);
-    }
+    };
     fs.stat = function(source) {
         if (source == undefined)
             throw new Error('Bad argument');
-        if (!f.FileExists(source) && !f.FolderExists(source))
+        if (f.FileExists(source))
             return null;
         var r = f.GetFile(source);
         return {
-            size: r.Size,
-            created: r.DateCreated,
-            accessed: r.DateLastAccessed,
-            path: r.Path,
-            modified: r.DateLastModified,
-            name: r.Name,
-            flags: r.Attributes,
-            type: r.Type
+            size: "" + r.Size,
+            created: "" + r.DateCreated,
+            accessed: "" + r.DateLastAccessed,
+            path: "" + r.Path,
+            modified: "" + r.DateLastModified,
+            name: "" + r.Name,
+            parent: "" + r.ParentFolder,
+            flags: "" + r.Attributes,
+            type: "" + r.Type
         };
-    }
+    };
+    fs.readdir = function(source) {
+        if (source == undefined)
+            throw new Error('Bad argument');
+        if (!f.FolderExists(source))
+            return null;
+        var r = f.GetFolder(source);
+        var list = [];
+        var fc = new Enumerator(r.Files);
+        for (fc.moveFirst(); !fc.atEnd(); fc.moveNext()) {
+            list.push(fc.item());
+        }
+        fc = new Enumerator(r.SubFolders);
+        for (fc.moveFirst(); !fc.atEnd(); fc.moveNext()) {
+            list.push(fc.item());
+        }
+        fc = null;
+        return {
+            size: "" + r.Size,
+            created: "" + r.DateCreated,
+            accessed: "" + r.DateLastAccessed,
+            path: "" + r.Path,
+            modified: "" + r.DateLastModified,
+            name: "" + r.Name,
+            flags: "" + r.Attributes,
+            type: "" + r.Type,
+            files: list,
+            shortName: "" + r.ShortName,
+            parent: "" + r.ParentFolder,
+            isRoot: "" + r.IsRootFolder,
+            drive: "" + r.Drive
+        };
+    };
     fs.stat.NONE = 0;
     fs.stat.READONLY = 1;
     fs.stat.HIDDEN = 2;
